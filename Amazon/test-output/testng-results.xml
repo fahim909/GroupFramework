@@ -158,12 +158,12 @@
       <![CDATA[SearchPage: get Search Input Web Element]]>
     </line>
   </reporter-output>
-  <suite name="Amazon API Automation Script " duration-ms="18376" started-at="2018-09-18T20:31:16Z" finished-at="2018-09-18T20:31:35Z">
+  <suite name="Amazon API Automation Script " duration-ms="17124" started-at="2018-09-18T21:02:13Z" finished-at="2018-09-18T21:02:30Z">
     <groups>
     </groups>
-    <test name="Search Test" duration-ms="18376" started-at="2018-09-18T20:31:16Z" finished-at="2018-09-18T20:31:35Z">
+    <test name="Search Test" duration-ms="17124" started-at="2018-09-18T21:02:13Z" finished-at="2018-09-18T21:02:30Z">
       <class name="search.TestSearch">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.TestSearch@3a883ce7]" name="extentSetup" is-config="true" duration-ms="416" started-at="2018-09-18T20:31:16Z" finished-at="2018-09-18T20:31:16Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.TestSearch@3a883ce7]" name="extentSetup" is-config="true" duration-ms="392" started-at="2018-09-18T21:02:12Z" finished-at="2018-09-18T21:02:13Z">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.TestSearch@3a883ce7]" name="setUp" is-config="true" duration-ms="6499" started-at="2018-09-18T20:31:16Z" finished-at="2018-09-18T20:31:23Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.TestSearch@3a883ce7]" name="setUp" is-config="true" duration-ms="7105" started-at="2018-09-18T21:02:13Z" finished-at="2018-09-18T21:02:20Z">
           <params>
             <param index="0">
               <value>
@@ -218,7 +218,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.TestSearch@3a883ce7]" name="startExtent" is-config="true" duration-ms="9" started-at="2018-09-18T20:31:23Z" finished-at="2018-09-18T20:31:23Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.TestSearch@3a883ce7]" name="startExtent" is-config="true" duration-ms="11" started-at="2018-09-18T21:02:20Z" finished-at="2018-09-18T21:02:20Z">
           <params>
             <param index="0">
               <value>
@@ -229,7 +229,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="searchData()[pri:0, instance:search.TestSearch@3a883ce7]" name="searchData" duration-ms="11239" started-at="2018-09-18T20:31:23Z" finished-at="2018-09-18T20:31:34Z">
+        <test-method status="PASS" signature="searchData()[pri:0, instance:search.TestSearch@3a883ce7]" name="searchData" duration-ms="9457" started-at="2018-09-18T21:02:20Z" finished-at="2018-09-18T21:02:29Z">
           <reporter-output>
             <line>
               <![CDATA[TestSearch: search Data]]>
@@ -386,7 +386,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchData -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.TestSearch@3a883ce7]" name="afterEachTestMethod" is-config="true" duration-ms="567" started-at="2018-09-18T20:31:34Z" finished-at="2018-09-18T20:31:35Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.TestSearch@3a883ce7]" name="afterEachTestMethod" is-config="true" duration-ms="497" started-at="2018-09-18T21:02:29Z" finished-at="2018-09-18T21:02:30Z">
           <params>
             <param index="0">
               <value>
@@ -397,7 +397,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="FAIL" signature="cleanUp()[pri:0, instance:search.TestSearch@3a883ce7]" name="cleanUp" is-config="true" duration-ms="34" started-at="2018-09-18T20:31:35Z" finished-at="2018-09-18T20:31:35Z">
+        <test-method status="FAIL" signature="cleanUp()[pri:0, instance:search.TestSearch@3a883ce7]" name="cleanUp" is-config="true" duration-ms="24" started-at="2018-09-18T21:02:30Z" finished-at="2018-09-18T21:02:30Z">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -449,7 +449,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:search.TestSearch@3a883ce7]" name="generateReport" is-config="true" duration-ms="71" started-at="2018-09-18T20:31:35Z" finished-at="2018-09-18T20:31:35Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:search.TestSearch@3a883ce7]" name="generateReport" is-config="true" duration-ms="83" started-at="2018-09-18T21:02:30Z" finished-at="2018-09-18T21:02:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

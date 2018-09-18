@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Cnn</module>
+        <module>Expedia</module>
     </modules>
 
     <dependencyManagement>

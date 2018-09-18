@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/menu/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/menu/MenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/InputSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/search/InputSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/TestSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/search/TestSearch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/search/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-search.TestSearch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-search.TestSearch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
-    </list>
+    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -364,7 +327,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537302668189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537303461255" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -578,7 +541,7 @@
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32766616" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.5517774" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.30448222" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32921174" />

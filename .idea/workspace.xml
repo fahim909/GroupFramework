@@ -1,99 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_ooxml_schemas_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_openxml4j_1_0_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon API Automation Script /Search Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon API Automation Script /Search Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-search.TestSearch.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /Search Test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Amazon API Automation Script /toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/menu/MenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/InputSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/TestSearch$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/TestSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-search.TestSearch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-search.TestSearch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/Expedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/Expedia.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -149,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="368" column="16" lean-forward="true" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+            <state relative-caret-position="41">
+              <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -409,7 +317,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537377815149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537377874190" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -613,29 +521,28 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="739" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="638" height="800" extended-state="0" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.18739903" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.31711408" />
       <window_info id="Structure" order="5" weight="0.24958949" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32766616" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.30448222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3041096" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32921174" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32921174" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.29178083" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.19314079" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" visible="true" weight="0.14216478" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.295302" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -943,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="368" column="16" lean-forward="true" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+        <state relative-caret-position="41">
+          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -12,7 +12,11 @@
     <classes>
       <class name="search.TestSearch">
         <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
           <include name="setUp"/>
+          <include name="startExtent"/>
           <include name="cleanUp"/>
           <include name="searchData"/>
         </methods>

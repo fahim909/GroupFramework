@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="" />
+    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -39,13 +42,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="905" />
+          <entry key="java" value="957" />
           <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="905" />
+          <entry key="JAVA" value="957" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="32" />
         </counts>
@@ -57,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+            <state relative-caret-position="247">
+              <caret line="390" column="19" selection-start-line="390" selection-start-column="19" selection-end-line="390" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,11 +111,11 @@
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -850,8 +853,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="390" column="19" selection-start-line="390" selection-start-column="19" selection-end-line="390" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

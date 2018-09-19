@@ -365,6 +365,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
@@ -384,7 +385,10 @@ public class CommonAPI {
     public void setUp(String platform, String browser, String url) {
         localDriver(platform, browser);
         driver.manage().window().maximize();
-        driver.navigate().to(url);
+        driver.manage().deleteAllCookies();
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.get(url);
     }
 
     public void localDriver(String platform, String browser) {

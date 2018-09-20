@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="" />
+    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -18,47 +26,111 @@
     <session id="-1891107522">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
-          <entry key="xml" value="7" />
+          <entry key="java" value="71" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
-          <entry key="XML" value="7" />
+          <entry key="JAVA" value="71" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="905" />
-          <entry key="xml" value="32" />
+          <entry key="java" value="4205" />
+          <entry key="xml" value="293" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="905" />
+          <entry key="JAVA" value="4205" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="32" />
+          <entry key="XML" value="293" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="July2018WebAutomation" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+            <state relative-caret-position="234">
+              <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,6 +150,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>driver</find>
+      <find>tear</find>
+      <find>.gcw-storeable.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,18 +175,25 @@
         <option value="$PROJECT_DIR$/Expedia/pom.xml" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/PageObject.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/HomePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/HomePageTests/SearchTests.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
       </list>
     </option>
   </component>
@@ -143,7 +224,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="638" />
+    <option name="width" value="91" />
     <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -160,58 +241,6 @@
             <path>
               <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
@@ -275,6 +304,14 @@
             <path>
               <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,49 +326,32 @@
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537377874190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537476249601" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Expedia/Drivers" />
       <recent name="$PROJECT_DIR$/Expedia/src/main/java/Pages" />
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
       <recent name="$PROJECT_DIR$/Generic" />
       <recent name="$PROJECT_DIR$/Generic/browser-driver" />
-      <recent name="$PROJECT_DIR$/Cnn/src/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Expedia/src/test" />
@@ -350,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -369,16 +389,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputSearch" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
+    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomePageTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -386,17 +406,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputSearch.search" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
+    <configuration name="HomePageTest.ValidateHeroBannerImgUrl" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
-      <option name="METHOD_NAME" value="search" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomePageTest" />
+      <option name="METHOD_NAME" value="ValidateHeroBannerImgUrl" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -405,17 +425,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuPage.readMenuText" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
+    <configuration name="HomePageTest.isLogoVisibleTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="menu.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="menu" />
-      <option name="MAIN_CLASS_NAME" value="menu.MenuPage" />
-      <option name="METHOD_NAME" value="readMenuText" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomePageTest" />
+      <option name="METHOD_NAME" value="isLogoVisibleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -424,19 +444,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
+    <configuration name="HomePageTest.testRoundTripFlightWithOneAdult" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomePageTest" />
+      <option name="METHOD_NAME" value="testRoundTripFlightWithOneAdult" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -461,17 +494,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG./Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" />
-      <item itemvalue="TestNG.InputSearch" />
-      <item itemvalue="TestNG.InputSearch.search" />
-      <item itemvalue="TestNG.MenuPage.readMenuText" />
+      <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" />
+      <item itemvalue="TestNG.HomePageTest.testRoundTripFlightWithOneAdult" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.HomePageTest.isLogoVisibleTest" />
+      <item itemvalue="TestNG.HomePageTest.ValidateHeroBannerImgUrl" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" />
-        <item itemvalue="TestNG.MenuPage.readMenuText" />
-        <item itemvalue="TestNG.InputSearch.search" />
-        <item itemvalue="TestNG.InputSearch" />
+        <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" />
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.ValidateHeroBannerImgUrl" />
+        <item itemvalue="TestNG.HomePageTest.isLogoVisibleTest" />
+        <item itemvalue="TestNG.HomePageTest.testRoundTripFlightWithOneAdult" />
       </list>
     </recent_temporary>
   </component>
@@ -489,60 +524,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.18 at 16h 31m 35s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 15h 44m 48s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.18 at 17h 00m 13s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 15h 59m 02s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.18 at 17h 02m 31s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 15h 59m 42s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 02h 58m 33s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 09m 55s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 02h 59m 31s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 12m 21s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 03h 03m 52s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 13m 25s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 03h 06m 56s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 14m 27s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 10h 21m 19s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 16m 21s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 10h 23m 22s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 19m 31s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_peoplentech_develop_SeleniumJuly2018_WebAutomation_Amazon_src_test_resources_AmazonTestRunner_xml - 2018.09.19 at 10h 27m 53s.xml">
-      <configuration name="/Users/peoplentech/develop/SeleniumJuly2018/WebAutomation/Amazon/src/test/resources/AmazonTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 16h 26m 54s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="638" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.31711408" />
+      <window_info id="Favorites" order="3" sideWeight="0.5011765" side_tool="true" weight="0.20193861" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49882352" visible="true" weight="0.20193861" />
       <window_info id="Structure" order="5" weight="0.24958949" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32766616" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3041096" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3271605" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3287037" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3041096" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32921174" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.29178083" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.19314079" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4178082" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3611111" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.295302" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.29483038" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -550,6 +586,60 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5011765" side_tool="true" visible="true" weight="0.20193861" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49882352" visible="true" weight="0.20193861" />
+      <window_info id="Structure" order="5" weight="0.24958949" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3271605" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3287037" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3041096" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32921174" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4178082" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3611111" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.29483038" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -622,13 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -699,9 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" />
     <entry file="file://$PROJECT_DIR$/Expedia/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -709,79 +791,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#2862#2863#0" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/PageObject.java" />
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/HomePage.java" />
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,10 +807,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" />
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java" />
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" />
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" />
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/pages/SearchPage.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/Drivers/ExpediaRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-771">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="159">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="101" selection-start-column="3" selection-end-line="103" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,57 +878,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="166">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
           <folding>
-            <element signature="e#0#640#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#0#360#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="510">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
+        <state relative-caret-position="234">
+          <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -910,12 +1002,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Amazon</last-edited>
+          <last-edited>WebAutomation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.24017467" />
               </list>
             </option>
           </splitter-proportions>

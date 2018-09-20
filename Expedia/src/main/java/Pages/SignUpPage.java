@@ -57,12 +57,16 @@ public class SignUpPage extends CommonAPI {
     public void clickCreateAccountButton(){
         CreateAccountButton.click();
     }
-//    @FindBy(css = "#create_account_first_name_label [type]")
-//    WebElement FirstNameField;
-//
-//    public void typeFirstName(String firstName){
-//        FirstNameField.sendKeys(firstName);
-//    }
+    @FindBy(css = "div.recaptcha-checkbox-checkmark")
+    WebElement HumanCheckbox;
+
+    public boolean isHumanCheckBoxVisible(){
+        return HumanCheckbox.isDisplayed();
+    }
+
+    public void clickHumanCheckBox(){
+        HumanCheckbox.click();
+    }
 //    @FindBy(css = "#create_account_first_name_label [type]")
 //    WebElement FirstNameField;
 //

@@ -2,109 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Expedia/Drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/Drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/Drivers/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/readMenuText (09.16.2018-16:00PM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/searchData (09.19.2018-03:03AM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/searchData (09.19.2018-03:06AM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/screenshots/searchData (09.19.2018-10:21AM).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/pages/SearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/pages/SearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /Search Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/Amazon API Automation Script /testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/jquery-1.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/junitreports/TEST-search.TestSearch.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /Search Test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/Amazon API Automation Script /toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/test-output/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/Expedia-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/Expedia-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/CustomerServicePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/CustomerServicePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/PageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/SignUpPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebAutomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -144,15 +47,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="3212" />
-          <entry key="xml" value="165" />
+          <entry key="java" value="3362" />
+          <entry key="xml" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3212" />
+          <entry key="JAVA" value="3362" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="XML" value="165" />
+          <entry key="XML" value="168" />
         </counts>
       </usages-collector>
     </session>
@@ -165,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1770">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="-188">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -207,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="222">
+              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
@@ -218,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="165">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#246#247#0" expanded="true" />
@@ -235,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="288">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#432#433#0" expanded="true" />
@@ -251,6 +154,10 @@
                 <element signature="e#1446#1447#0" expanded="true" />
                 <element signature="e#1475#1476#0" expanded="true" />
                 <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -306,10 +213,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" />
       </list>
     </option>
   </component>
@@ -370,6 +277,48 @@
             <path>
               <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -382,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537464789451" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537467400548" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -569,39 +518,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 10h 42m 04s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 10h 43m 39s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 10h 46m 39s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 10h 53m 37s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 10h 54m 21s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 11h 04m 03s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 24m 08s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 27m 13s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 28m 08s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 30m 12s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 33m 34s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 48m 31s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 55m 29s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 13h 58m 45s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 14h 00m 26s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 14h 08m 28s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 14h 11m 02s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.20 at 14h 12m 31s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -906,10 +856,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/Drivers/ExpediaRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="288">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
@@ -924,43 +879,18 @@
             <element signature="e#1446#1447#0" expanded="true" />
             <element signature="e#1475#1476#0" expanded="true" />
             <element signature="e#1518#1519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/Drivers/ExpediaRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="-188">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -969,8 +899,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

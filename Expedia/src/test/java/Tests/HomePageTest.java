@@ -25,7 +25,7 @@ public void createTestObj(){
         Assert.assertEquals(title,"Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 2)
       public void isLogoVisibleTest(){
         //boolean result=homePage.ValidateExpediaLogo();
         //Assert.assertEquals(result,true);
@@ -38,12 +38,12 @@ public void createTestObj(){
         Assert.assertEquals(result,"background-image: url(\"https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCbm6LR1gEQARgBMgjZMTZt8LM5zQ\"); background-position");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 3)
     public void testRoundTripFlightWithOneAdult(){
         homePage.searchRoundTripFlightOneAdult("New York City","Toronto","10/15/2018","10/30/2018");
     }
 
-    @Test(priority = 1)
+    @Test(priority = 4)
     public void addPassengersTest(){
         homePage.TravelorsTabclick();
         for (int i =0;i<5;i++){
@@ -51,7 +51,7 @@ public void createTestObj(){
         }
     }
 
-    @Test(priority = 1)
+    @Test(priority = 5)
         public void TestDiscoverSearchButton(){
         homePage.DiscoverySearchTest("Hawaii");
     }

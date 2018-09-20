@@ -8,6 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -65,6 +66,9 @@ public class CommonAPI {
                 System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver");
                 driver = new FirefoxDriver();
             }
+            else if (browser.equalsIgnoreCase("Safari")) {
+                driver = new SafariDriver();
+            }
         } else if (platform.contains("Win")) {
             if (browser.equalsIgnoreCase("Chrome")) {
                 System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
@@ -74,6 +78,7 @@ public class CommonAPI {
                 driver = new FirefoxDriver();
             }
         }
+
     }
 
     /**

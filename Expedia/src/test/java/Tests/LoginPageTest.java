@@ -2,11 +2,12 @@ package Tests;
 
 import Pages.LoginPage;
 import Pages.SignUpPage;
+import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginPageTest {
+public class LoginPageTest extends CommonAPI {
 
     LoginPage loginPage;
 
@@ -19,7 +20,7 @@ public class LoginPageTest {
 
     @Test
     public void ValidateUrl(){
-        Assert.assertEquals(loginPage.returnUrl(),"https://www.expedia.com/user/signin?ckoflag=0");
+        Assert.assertEquals(loginPage.returnUrl(),"https://www.expedia.com/user/signin");
     }
 
     @Test(priority = 1)

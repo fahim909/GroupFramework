@@ -1,4 +1,6 @@
 package Pages;
 
-public class CustomerServicePage {
+import base.CommonAPI;
+
+public class CustomerServicePage extends CommonAPI {
 }

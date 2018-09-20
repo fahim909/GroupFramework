@@ -1,4 +1,6 @@
 package Pages;
 
-public class LoginPage {
+import base.CommonAPI;
+
+public class LoginPage extends CommonAPI {
 }

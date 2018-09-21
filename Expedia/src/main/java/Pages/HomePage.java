@@ -54,9 +54,11 @@ public class HomePage extends CommonAPI {
     @FindBy(css = "#flight-returning-hp-flight")
     WebElement  ReturningField;
 
-    @FindBy(xpath = "//body[contains(@class,'wrap cf')]/section[@id='WizardHero']/div[@id='hero-banner']/div[@class='hero-banner-gradient']/div[@class='cols-row hero-banner-inner']/section[@id='wizardSection']/div[contains(@class,'hero-banner-box siteId-1 cf')]/div[@id='wizard-tabs']/div[@class='tabs-container col']/section[@id='section-flight-tab-hp']/form[@id='gcw-flights-form-hp-flight']/fieldset[@class='room-data']/div[@class='cols-nested']/div[@class='ab25184-traveler-wrapper-flight available-for-flights gcw-clear-both']/div[@id='traveler-selector-hp-flight']/div[@class='menu-bar gcw-travel-selector-wrapper']/ul[@class='menu-bar-inner']/li[@class='open']/button[1]")
-    WebElement TravelersTab  ;
-    public void TravelorsTabclick(){TravelersTab.click();}
+    @FindBy(css = "#tab-flight-tab-hp")
+    WebElement TravelersTab;
+    public void TravelorsTabclick(){
+        System.out.println("travelors tab expected: "+TravelersTab.getAttribute("id")+" actual: "+TravelersTab.getAttribute("id"));
+        TravelersTab.click();}
 
 
     @FindBy(xpath = "//button[@xpath = '35']")
@@ -117,6 +119,12 @@ public class HomePage extends CommonAPI {
        // String url = style.substring(style.indexOf('/'),style.indexOf())
         System.out.println(style);
         return style;
+    }
+
+    public boolean isHeroBannerDisplayed(){
+        boolean result = HeroBanner.isDisplayed();
+        // String url = style.substring(style.indexOf('/'),style.indexOf())
+        return result;
     }
     public void searchRoundTripFlightOneAdult(String from, String destination,String departing, String returning){
         FlightOnlyTab.click();

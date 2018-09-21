@@ -39,8 +39,9 @@ public class LoginPage extends CommonAPI {
     @FindBy(css = "#submitButton")
     WebElement submitButton;
 
-    public void clickSubmitBUtton(){
+    public HomePage clickSubmitBUtton(){
         submitButton.click();
+        return new HomePage();
     }
 
     public String returnUrl(){

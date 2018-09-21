@@ -35,7 +35,13 @@ public void createTestObj(){
     @Test
     public void ValidateHeroBannerImgUrl(){
         String result = homePage.ShowHeroBannerImgSrc().substring(0,homePage.ShowHeroBannerImgSrc().lastIndexOf(':'));
-        Assert.assertEquals(result,"background-image: url(\"https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCbm6LR1gEQARgBMgjZMTZt8LM5zQ\"); background-position");
+        Assert.assertEquals(result,"background-image: url(\"https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCbm6LR1gEQARgBMgjZMTZt8LM5zQ\"); background-position","Image URL does not match");
+    }
+
+    @Test(priority = 1)
+    public void ValidateHeroBannerDisplayed(){
+        boolean result = homePage.isHeroBannerDisplayed();
+        Assert.assertTrue(result,"Banner is not Displayed");
     }
 
     @Test(priority = 3)

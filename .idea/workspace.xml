@@ -8,6 +8,11 @@
       <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/LoginPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -304,7 +309,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537557278323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537557368858" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -487,9 +492,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.21 at 14h 41m 31s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.21 at 14h 41m 34s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -517,6 +519,9 @@
     <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.21 at 15h 12m 10s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.21 at 15h 16m 19s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -535,7 +540,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3041096" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32921174" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4178082" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4178082" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3611111" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />

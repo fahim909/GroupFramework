@@ -26,14 +26,14 @@
         </classes>
     </test>
 
-    <test name = "HomePageTest(Mac/Safari)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="Safari"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.HomePageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "HomePageTest(Mac/Safari)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="Safari"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.HomePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
     <test name = "SignUpPageTest(Mac/firefox)">
         <parameter name="platform" value="Mac"/>
@@ -44,14 +44,14 @@
         </classes>
     </test>
 
-    <test name = "SignUpPageTest(Mac/Safari)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="Safari"/>
-        <parameter name="url" value="https://www.expedia.com/user/createaccount?fromheader=true"/>
-        <classes>
-            <class name="Tests.SignUpPageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "SignUpPageTest(Mac/Safari)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="Safari"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/user/createaccount?fromheader=true"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.SignUpPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
     <test name = "SignUpPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
@@ -81,14 +81,14 @@
         </classes>
     </test>
 
-    <test name = "LoginUpPageTest(Mac/Safari)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="Safari"/>
-        <parameter name="url" value="https://www.expedia.com/user/signin"/>
-        <classes>
-            <class name="Tests.LoginPageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "LoginUpPageTest(Mac/Safari)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="Safari"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/user/signin"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.LoginPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
     <test name = "CustomerServicePageTest(Mac/firefox)">
         <parameter name="platform" value="Mac"/>
@@ -108,14 +108,14 @@
         </classes>
     </test>
 
-    <test name = "CustomerServicePageTest(Safari/chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="Safari"/>
-        <parameter name="url" value="https://www.expedia.com/service/"/>
-        <classes>
-            <class name="Tests.CustomerServicePageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "CustomerServicePageTest(Safari/chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="Safari"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/service/"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.CustomerServicePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
 
 

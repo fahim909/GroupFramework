@@ -1,5 +1,6 @@
 package Tests;
 
+import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.SignUpPage;
 import base.CommonAPI;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 public class LoginPageTest extends CommonAPI {
 
     LoginPage loginPage;
+    HomePage homePage;
 
     @BeforeMethod
     public void createTestObj(){
@@ -42,7 +44,7 @@ public class LoginPageTest extends CommonAPI {
     public void testLoginForm(){
         loginPage.typeEmail("lowang22@gmail.com");
         loginPage.typePassword("selenium4life");
-        loginPage.clickSubmitBUtton();
+        homePage = loginPage.clickSubmitBUtton();
     }
 
 }

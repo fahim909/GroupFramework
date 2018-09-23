@@ -1,11 +1,13 @@
 package Pages;
 
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class HomePage extends CommonAPI {
 
@@ -126,16 +128,25 @@ public class HomePage extends CommonAPI {
         // String url = style.substring(style.indexOf('/'),style.indexOf())
         return result;
     }
-    public void searchRoundTripFlightOneAdult(String from, String destination,String departing, String returning){
+    public void searchRoundTripFlightOneAdult(String from, String destination,String departing, String returning) throws InterruptedException {
         FlightOnlyTab.click();
         RoundTripButton.click();
+        Thread.sleep(900);
         FlyFromField.sendKeys(from);
+        Thread.sleep(900);
         FlyingToField.sendKeys(destination);
+        Thread.sleep(900);
         DepartingField.sendKeys(departing);
+        Thread.sleep(900);
         ReturningField.sendKeys(returning);
         FlightOnlySearchButton.click();
-        String results = driver.getCurrentUrl();
-        System.out.println(results);
+
+//        String resultPage = driver.getCurrentUrl();
+//        wait(3000);
+//        driver.get(resultPage);
+//        WebElement destinationLabel = driver.findElement(By.xpath("//span[@class='title-city-text']"));
+//        String cityText = destinationLabel.getText();
+//        Assert.assertTrue(cityText.contains(destination));
     }
 
     public void DiscoverySearchTest(String destination){

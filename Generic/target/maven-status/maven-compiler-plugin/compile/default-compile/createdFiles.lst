@@ -1,3 +1,4 @@
+TestData/ExcelReader2.class
 TestData/DataReader.class
 base/CommonAPI.class
 reporting/ExtentManager.class
@@ -8,3 +9,4 @@ reporting/ExtentTestManager.class
 databases/User.class
 reporting/TestLogger.class
 databases/ConnectToSqlDB.class
+TestData/ExcelReader.class

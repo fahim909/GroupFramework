@@ -75,3 +75,36 @@ public class SignUpPage extends CommonAPI {
 //    }
 
 }
+
+//package Tests.DataDrivenTests;
+//
+//import Pages.HomePage;
+//import Tests.HomePageTest;
+//import org.testng.annotations.BeforeMethod;
+//import org.testng.annotations.DataProvider;
+//import org.testng.annotations.Test;
+//
+//public class DataDrivenHomePageTest extends HomePageTest {
+//
+//HomePage homePage;
+//
+//    @BeforeMethod
+//    public void createTestObj(){
+//        this.homePage = new HomePage();
+//        try {
+//            ExcelReader.setExcelFile("Tests/DataDrivenTests/ExpediaTestData.xlsx","Sheet1");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+//    @DataProvider(name = "SearchData")
+//    public Object[][] dataProvider(){
+//          Object[][] testData = ExcelReader.getTestData("Data");
+//          return testData;
+//    }
+//
+//    @Test(dataProvider = "SearchData")
+//    public void testRoundTripFlightWithData(String from,String to,String Departing,String Returning) throws InterruptedException {
+//        homePage.searchRoundTripFlightOneAdult(from,to,Departing,Returning);
+//    }
+//}

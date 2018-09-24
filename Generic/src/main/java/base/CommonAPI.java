@@ -176,44 +176,4 @@ public class CommonAPI {
 
     }
 
-    /**
-     * AfterMethod captures Screenshots with the help of 'captureScreenshot' method
-     * Which get saved under screenshots directory under Users individual modules
-     * and to make the names stand out from each other, Current Date is added
-     * so User can distinguish the screenshots.
-
-     */
-
-//    @AfterMethod
-//    public void captureScreenshotsIfFailure(ITestResult result) {
-//        if (result.getStatus() == ITestResult.FAILURE) {
-//            captureScreenshot(result.getName());
-//        }
-//    }
-
-
-
-
-
-    // Method to capture screenshot and provide current date
-    public static void captureScreenshot(String name) {
-        DateFormat dateFormat = new SimpleDateFormat("(HH.mm.yyyy-HH;mma)");
-        Date date = new Date();
-
-        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File screenshot = null;
-
-        if (System.getProperty("os.name").contains("Mac")) {
-            screenshot = new File(System.getProperty("user.dir") +
-                    "/screenshots/" + name + " " + dateFormat.format(date) + ".png");
-        } else if (System.getProperty("os.name").contains("Win")) {
-            screenshot = new File(System.getProperty("user.dir") +
-                    "\\screenshots\\" + name + " " + dateFormat.format(date) + ".png");
-        }
-        try {
-            FileUtils.copyFile(file, screenshot);
-        } catch (IOException e) {
-
-        }
-    }
 }

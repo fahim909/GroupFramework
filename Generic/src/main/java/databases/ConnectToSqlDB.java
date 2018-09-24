@@ -1,5 +1,7 @@
 package databases;
 
+import org.testng.annotations.AfterClass;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,7 +23,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/secret.properties");
+        InputStream ism = new FileInputStream("/Users/junedalam/Documents/July2018WebAutomation/Generic/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -55,6 +57,7 @@ public class ConnectToSqlDB {
         return data;
     }
 
+    @AfterClass
     private void close() {
         try{
             if(resultSet != null){

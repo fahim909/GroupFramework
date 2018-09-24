@@ -1,5 +1,6 @@
-Tests/DataDrivenTests/DataDrivenHomePageTest.class
-Tests/SignUpPageTest.class
+Tests/DataDrivenTests/DataSearchPage.class
 Tests/CustomerServicePageTest.class
-Tests/LoginPageTest.class
 Tests/HomePageTest.class
+Tests/DataDrivenTests/RecentSearchesPageTest.class
+Tests/SignUpPageTest.class
+Tests/LoginPageTest.class

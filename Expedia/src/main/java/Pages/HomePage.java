@@ -9,6 +9,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class HomePage extends CommonAPI {
 
 
@@ -102,6 +105,16 @@ public class HomePage extends CommonAPI {
 
     @FindBy(xpath = "//span[@class = 'title-city-text']")
      WebElement resultLabel;
+
+    @FindBy(xpath = "//ul[@class='tabs cf col']//button/span[2]")
+    WebElement navBarItems;
+
+    public List getNavBarTexts(){
+        List<WebElement> navitems;
+        navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
+        return navitems;
+    }
+
 
      public String getDestinationLabelText(){
          return resultLabel.getText();

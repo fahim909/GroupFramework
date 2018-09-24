@@ -8,14 +8,14 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserVersion" value="60.0"/>
     -->
-    <test name = "HomePageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.HomePageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "HomePageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.HomePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
     <!--<test name = "HomePageTest(Mac/firefox)">-->
         <!--<parameter name="platform" value="Mac"/>-->
@@ -100,6 +100,15 @@
             <!--<class name="Tests.DataDrivenTests.DataSearchPage"/>-->
         <!--</classes>-->
     <!--</test>-->
+
+    <test name = "RecentSearchesPageTest(Mac/Chrome)">
+        <parameter name="platform" value="Mac"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>
+        </classes>
+    </test>
 
 </suite>
 

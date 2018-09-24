@@ -28,8 +28,6 @@ public class RecentSearchesPageTest extends CommonAPI {
 
     }
 
-
-
     @Test
     public void navbarLinksTest(){
         for (int i = 0; i <searchList.size();i++){

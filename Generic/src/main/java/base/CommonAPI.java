@@ -13,8 +13,10 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import utilities.WebEventListener;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,6 +29,8 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
      public static WebDriver driver;
+     public static EventFiringWebDriver e_driver;
+     public static WebEventListener eventListener;
      public CommonAPI(){
      }
     /**
@@ -130,13 +134,17 @@ public class CommonAPI {
 
     @AfterMethod
     public void tearDown() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(10000);
         driver.close();
     }
 
 
     public static void setUp(String platform, String browser, String url) {
         localDriver(platform, browser);
+        e_driver = new EventFiringWebDriver(driver);
+        eventListener = new WebEventListener();
+        e_driver.register(eventListener);
+        driver = e_driver;
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         //driver.manage().timeouts().pageLoadTimeout(8, TimeUnit.SECONDS);
@@ -188,7 +196,7 @@ public class CommonAPI {
 
 
     // Method to capture screenshot and provide current date
-    private void captureScreenshot(String name) {
+    public static void captureScreenshot(String name) {
         DateFormat dateFormat = new SimpleDateFormat("(HH.mm.yyyy-HH;mma)");
         Date date = new Date();
 

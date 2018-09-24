@@ -100,8 +100,12 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//form[@id='gcw-open-search-form-hp-openSearch']//button[@type='submit']")
     WebElement DiscoverSearchButton ;
 
+    @FindBy(xpath = "//span[@class = 'title-city-text']")
+     WebElement resultLabel;
 
-
+     public String getDestinationLabelText(){
+         return resultLabel.getText();
+     }
 
     public HomePage() {
     PageFactory.initElements(driver,this);
@@ -130,6 +134,7 @@ public class HomePage extends CommonAPI {
     }
     public void searchRoundTripFlightOneAdult(String from, String destination,String departing, String returning) throws InterruptedException {
         FlightOnlyTab.click();
+        Thread.sleep(900);
         RoundTripButton.click();
         Thread.sleep(900);
         FlyFromField.sendKeys(from);
@@ -140,6 +145,8 @@ public class HomePage extends CommonAPI {
         Thread.sleep(900);
         ReturningField.sendKeys(returning);
         FlightOnlySearchButton.click();
+        Thread.sleep(900);
+        Assert.assertEquals(getDestinationLabelText(),"Select your departure to "+destination);
 
 //        String resultPage = driver.getCurrentUrl();
 //        wait(3000);
@@ -154,7 +161,6 @@ public class HomePage extends CommonAPI {
         DiscoverSearchBox.sendKeys(destination);
         DiscoverSearchButton.click();
     }
-
 
 }
 

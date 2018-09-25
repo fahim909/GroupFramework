@@ -13,8 +13,10 @@ import java.util.Date;
 
 public class CaptureScreenShots extends CommonAPI {
 
+
+
     // Method to capture screenshot and provide current date
-    public static void captureScreenshot(String name) {
+    public static String captureScreenshot(String name) {
         DateFormat dateFormat = new SimpleDateFormat("(HH.mm.yyyy-HH;mma)");
         Date date = new Date();
 
@@ -33,6 +35,9 @@ public class CaptureScreenShots extends CommonAPI {
         } catch (IOException e) {
 
         }
+        String location = System.getProperty("user.dir") +
+                "\\screenshots\\" + name + " " + dateFormat.format(date) + ".png";
+        return location;
     }
 
 

@@ -8,33 +8,35 @@ import org.openqa.selenium.support.PageFactory;
 public class SignUpPage extends CommonAPI {
 
     public SignUpPage() {
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
     }
 
 
     @FindBy(css = "#create_account_first_name_label [type]")
     WebElement FirstNameField;
 
-    public void typeFirstName(String firstName){
+    public void typeFirstName(String firstName) {
         FirstNameField.sendKeys(firstName);
     }
 
     @FindBy(css = "#create_account_last_name_label [type]")
     WebElement LastNameField;
 
-    public void typeLastName(String LastName){
+    public void typeLastName(String LastName) {
         LastNameField.sendKeys(LastName);
     }
+
     @FindBy(css = "#create_email_label [type]")
     WebElement EmailField;
 
-    public void typeEmail(String email){
+    public void typeEmail(String email) {
         EmailField.sendKeys(email);
     }
+
     @FindBy(css = "#create-password [type]")
     WebElement PasswordField;
 
-    public void typePassword(String Pass){
+    public void typePassword(String Pass) {
         EmailField.sendKeys(Pass);
 
     }
@@ -42,69 +44,32 @@ public class SignUpPage extends CommonAPI {
     @FindBy(css = "#create_confirm_password_error_label [type]")
     WebElement confirmPasswordField;
 
-    public void typeConfirmPass(String Pass){
+    public void typeConfirmPass(String Pass) {
         confirmPasswordField.sendKeys(Pass);
     }
+
     @FindBy(css = "#create-account-expedia-policy")
     WebElement AgreeCheckBox;
 
-    public void ClickAgree(){
-       AgreeCheckBox.click();
+    public void ClickAgree() {
+        AgreeCheckBox.click();
     }
+
     @FindBy(css = "#create-account-submit-button")
     WebElement CreateAccountButton;
 
-    public void clickCreateAccountButton(){
+    public void clickCreateAccountButton() {
         CreateAccountButton.click();
     }
+
     @FindBy(css = "div.recaptcha-checkbox-checkmark")
     WebElement HumanCheckbox;
 
-    public boolean isHumanCheckBoxVisible(){
+    public boolean isHumanCheckBoxVisible() {
         return HumanCheckbox.isDisplayed();
     }
 
-    public void clickHumanCheckBox(){
+    public void clickHumanCheckBox() {
         HumanCheckbox.click();
     }
-//    @FindBy(css = "#create_account_first_name_label [type]")
-//    WebElement FirstNameField;
-//
-//    public void typeFirstName(String firstName){
-//        FirstNameField.sendKeys(firstName);
-//    }
-
 }
-
-//package Tests.DataDrivenTests;
-//
-//import Pages.HomePage;
-//import Tests.HomePageTest;
-//import org.testng.annotations.BeforeMethod;
-//import org.testng.annotations.DataProvider;
-//import org.testng.annotations.Test;
-//
-//public class DataDrivenHomePageTest extends HomePageTest {
-//
-//HomePage homePage;
-//
-//    @BeforeMethod
-//    public void createTestObj(){
-//        this.homePage = new HomePage();
-//        try {
-//            ExcelReader.setExcelFile("Tests/DataDrivenTests/ExpediaTestData.xlsx","Sheet1");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-//    @DataProvider(name = "SearchData")
-//    public Object[][] dataProvider(){
-//          Object[][] testData = ExcelReader.getTestData("Data");
-//          return testData;
-//    }
-//
-//    @Test(dataProvider = "SearchData")
-//    public void testRoundTripFlightWithData(String from,String to,String Departing,String Returning) throws InterruptedException {
-//        homePage.searchRoundTripFlightOneAdult(from,to,Departing,Returning);
-//    }
-//}

@@ -12,16 +12,15 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class HomePage extends CommonAPI {
+    public HomePage(){
+        PageFactory.initElements(driver,this);
+    }
 
-
-@FindBy(css = "#tab-flight-tab-hp")
+    @FindBy(css = "#tab-flight-tab-hp")
     WebElement FlightOnlyTab;
-
-/*
-@FindBy(css = "")
-    WebElement  ;
-*/
 
     @FindBy(xpath = "//img[@itemprop='image']")
     WebElement ExpediaLogo ;
@@ -61,6 +60,7 @@ public class HomePage extends CommonAPI {
 
     @FindBy(css = "#tab-flight-tab-hp")
     WebElement TravelersTab;
+
     public void TravelorsTabclick(){
         System.out.println("travelors tab expected: "+TravelersTab.getAttribute("id")+" actual: "+TravelersTab.getAttribute("id"));
         TravelersTab.click();}
@@ -115,16 +115,11 @@ public class HomePage extends CommonAPI {
         return navitems;
     }
 
-
-     public String getDestinationLabelText(){
-         return resultLabel.getText();
-     }
-
-    public HomePage() {
-    PageFactory.initElements(driver,this);
+    //Actions
+    public String getDestinationLabelText(){
+        return resultLabel.getText();
     }
 
-    //Actions
     public String getHomePageTitle(){
         return driver.getTitle();
     }

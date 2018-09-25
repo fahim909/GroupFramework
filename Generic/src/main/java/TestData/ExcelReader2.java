@@ -17,7 +17,7 @@ public class ExcelReader2 {
     static Sheet sheet;
 
         public static Object[][] getTestData(int sheetIndex){
-        FileInputStream file = null;
+        //FileInputStream file = null;
         BufferedInputStream bis = null;
         try {
             bis = new BufferedInputStream(new FileInputStream(Path));

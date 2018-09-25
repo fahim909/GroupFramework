@@ -8,6 +8,11 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserVersion" value="60.0"/>
     -->
+
+    <listeners>
+        <listener class-name="reporting.ExtentReporterNG"/>
+    </listeners>
+
     <test name = "HomePageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>

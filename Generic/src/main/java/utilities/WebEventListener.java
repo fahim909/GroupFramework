@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-
 public class WebEventListener extends CommonAPI implements WebDriverEventListener {
 
     public void beforeNavigateTo(String url, WebDriver driver) {
@@ -56,6 +55,7 @@ public class WebEventListener extends CommonAPI implements WebDriverEventListene
     public void onException(Throwable error, WebDriver driver) {
         System.out.println("Exception occured: " + error);
         CaptureScreenShots.captureScreenshot("Screenshot");
+
     }
 
     @Override

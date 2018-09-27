@@ -2,10 +2,13 @@ package Pages;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
+import java.util.List;
 
 public class CustomerServicePage extends CommonAPI {
 
@@ -24,6 +27,11 @@ public class CustomerServicePage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'Add your property to Expedia')]")
     WebElement addPropertyButton;
+
+    @FindBy(css = "#search-term")
+    WebElement searchBox;
+
+
 
     public String CSLabelText(){
         String text = CustomerServiceLabel.getText();
@@ -51,6 +59,15 @@ public class CustomerServicePage extends CommonAPI {
         driver.close(); // close newly opened window when done with it
         driver.switchTo().window(parentHandle); // switch back to the original window
         Assert.assertEquals(getText,"Signup is easy, free, and gives you exposure to over 675 million monthly site visits.");
+    }
+
+    public void getSearchResultCount() throws InterruptedException {
+        searchBox.clear();
+        searchBox.sendKeys("lost bags", Keys.ENTER);
+        Thread.sleep(2000);
+
+        List list = driver.findElements(By.xpath("//section[@class='col']//ul[contains(@class,'segment')]/li"));
+        Assert.assertEquals(list.size(),5);
     }
 
 

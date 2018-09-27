@@ -32,4 +32,8 @@ public class CustomerServicePageTest extends CommonAPI {
         customerServicePage.verifyPropertyPageBannerText();
     }
 
+    @Test
+    public void SearchResultsCount() throws InterruptedException {
+        customerServicePage.getSearchResultCount();
+    }
 }

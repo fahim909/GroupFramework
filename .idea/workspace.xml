@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -84,7 +80,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="296">
@@ -93,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="390">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
@@ -341,7 +337,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538019644692" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538020226705" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -522,12 +518,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.26 at 21h 58m 53s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.26 at 22h 55m 22s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.26 at 22h 56m 03s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -552,6 +542,12 @@
     <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.26 at 23h 34m 28s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.26 at 23h 38m 51s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.09.26 at 23h 40m 39s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,7 +560,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -576,10 +571,10 @@
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.3260274" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32739726" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3041096" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3041096" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4178082" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4178082" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.360274" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -972,17 +967,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/CustomerServicePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="52" column="122" selection-start-line="52" selection-start-column="122" selection-end-line="52" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/CustomerServicePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

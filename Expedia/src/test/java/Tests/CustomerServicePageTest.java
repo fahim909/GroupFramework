@@ -22,4 +22,14 @@ public class CustomerServicePageTest extends CommonAPI {
       Assert.assertEquals(ans,"We're here to help.");
   }
 
+  @Test
+    public void validatePhoneFieldTest() throws InterruptedException {
+        customerServicePage.verifyPhoneTextLabel();
+  }
+
+  @Test
+  public void AddPropertyTest() throws InterruptedException {
+        customerServicePage.verifyPropertyPageBannerText();
+    }
+
 }

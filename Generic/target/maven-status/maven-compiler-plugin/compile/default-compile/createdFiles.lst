@@ -10,4 +10,5 @@ databases/ConnectToMongoDB.class
 databases/Student.class
 reporting/ApplicationLog.class
 databases/User.class
+reporting/ExtentReporterNG.class
 utilities/WebEventListener.class

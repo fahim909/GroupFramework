@@ -77,16 +77,16 @@
         <!--</classes>-->
     <!--</test>-->
 
-    <test name = "CustomerServicePageTest(Mac/chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/service/"/>
-        <classes>
-        <class name="Tests.CustomerServicePageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "CustomerServicePageTest(Mac/chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/service/"/>-->
+        <!--<classes>-->
+        <!--<class name="Tests.CustomerServicePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
-    <!--"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"-->
+    <!--&lt;!&ndash;"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"&ndash;&gt;-->
 
     <!--<test name = "DataDrivenHomePageTest(Mac/Chrome)">-->
         <!--<parameter name="platform" value="Mac"/>-->
@@ -115,14 +115,14 @@
         <!--</classes>-->
     <!--</test>-->
 
-    <!--<test name = "RecentSearchesPageTest(Mac/FireFox)">-->
-        <!--<parameter name="platform" value="Mac"/>-->
-        <!--<parameter name="browser" value="firefox"/>-->
-        <!--<parameter name="url" value="https://www.expedia.com"/>-->
-        <!--<classes>-->
-            <!--<class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>-->
-        <!--</classes>-->
-    <!--</test>-->
+    <test name = "RecentSearchesPageTest(Mac/FireFox)">
+        <parameter name="platform" value="Mac"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>
+        </classes>
+    </test>
 
 </suite>
 

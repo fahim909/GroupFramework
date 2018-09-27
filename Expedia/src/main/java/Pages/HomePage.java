@@ -109,10 +109,14 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//ul[@class='tabs cf col']//button/span[2]")
     WebElement navBarItems;
 
-    public List getNavBarTexts(){
+    public List<String> getNavBarTexts(){
         List<WebElement> navitems;
         navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
-        return navitems;
+        List<String> list = new ArrayList<String>();
+        for (WebElement we: navitems) {
+            list.add(we.getText());
+        }
+        return list;
     }
 
     //Actions

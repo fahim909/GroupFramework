@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 5, Errors: 0, Skipped: 35, Time elapsed: 1.44 s <<< FAILURE! - in TestSuite
+initialize(Tests.SignUpPageTest)  Time elapsed: 0.888 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+
+
+initialize(Tests.DataDrivenTests.RecentSearchesPageTest)  Time elapsed: 0.906 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+
+
+initialize(Tests.HomePageTest)  Time elapsed: 0.909 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+
+
+initialize(Tests.LoginPageTest)  Time elapsed: 0.914 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+
+
+initialize(Tests.CustomerServicePageTest)  Time elapsed: 0.923 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+
+

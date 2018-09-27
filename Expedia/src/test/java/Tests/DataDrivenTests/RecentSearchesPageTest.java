@@ -18,20 +18,21 @@ public class RecentSearchesPageTest extends CommonAPI {
     HomePage homePage;
     ConnectToSqlDB connectToSqlDB;
     List<String> searchList = new ArrayList<String>();
-    List<WebElement> navbarItems;
+    List<String> navbarItems;
 
     @BeforeMethod
     public void createTestObj() throws Exception {
         this.homePage = new HomePage();
         this.connectToSqlDB = new ConnectToSqlDB();
+        searchList = connectToSqlDB.readDataBase("navbarlinks","links");
         this.navbarItems = homePage.getNavBarTexts();
 
     }
 
     @Test
     public void navbarLinksTest(){
-        for (int i = 0; i <searchList.size();i++){
-            Assert.assertEquals(searchList.get(i),navbarItems.get(i).getText());
+        for (int i = 0; i <searchList.size()-1;i++){
+            Assert.assertTrue(searchList.get(i).contains(navbarItems.get(i).substring(0,navbarItems.get(i).indexOf("\nTab"))));
         }
     }
 

@@ -49,7 +49,7 @@ public class CommonAPI {
 
     @BeforeMethod
     @Parameters({"platform", "browser", "url"})
-    public void initialize(String platform,String browser, String url) {
+    public void initialize(@Optional("Mac") String platform,@Optional("chrome") String browser,@Optional("https://www.expedia.com/") String url) {
         setUp(platform, browser, url);
 
     }

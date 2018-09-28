@@ -1,34 +1,61 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 40, Failures: 5, Errors: 0, Skipped: 35, Time elapsed: 1.44 s <<< FAILURE! - in TestSuite
-initialize(Tests.SignUpPageTest)  Time elapsed: 0.888 s  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 233.59 s <<< FAILURE! - in TestSuite
+verifyHumanOrRobotPageTitle(Tests.SignUpPageTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: expected [Bot or Not?] but found [Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations]
+	at Tests.SignUpPageTest.verifyHumanOrRobotPageTitle(SignUpPageTest.java:23)
 
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+ValidateUrl(Tests.LoginPageTest)  Time elapsed: 0.067 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.expedia.com/user/signin] but found [https://www.expedia.com/]
+	at Tests.LoginPageTest.ValidateUrl(LoginPageTest.java:25)
 
+testLoginForm(Tests.LoginPageTest)  Time elapsed: 10.108 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#signin-loginid"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60754}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4d9740a9f103e0ec9978eed023713702
+*** Element info: {Using=css selector, value=#signin-loginid}
+	at Tests.LoginPageTest.testLoginForm(LoginPageTest.java:45)
 
-initialize(Tests.DataDrivenTests.RecentSearchesPageTest)  Time elapsed: 0.906 s  <<< FAILURE!
-org.testng.TestNGException: 
+SearchResultsCount(Tests.CustomerServicePageTest)  Time elapsed: 10.264 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search-term"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61186}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d704b5df8ba29f11a37ee0080bc77363
+*** Element info: {Using=css selector, value=#search-term}
+	at Tests.CustomerServicePageTest.SearchResultsCount(CustomerServicePageTest.java:37)
 
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
+validateLabelText(Tests.CustomerServicePageTest)  Time elapsed: 9.884 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@class='aside-prompt']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61401}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 9c38943ef58e1a369f733d46baf8c793
+*** Element info: {Using=xpath, value=//h3[@class='aside-prompt']}
+	at Tests.CustomerServicePageTest.validateLabelText(CustomerServicePageTest.java:21)
 
-
-initialize(Tests.HomePageTest)  Time elapsed: 0.909 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
-
-initialize(Tests.LoginPageTest)  Time elapsed: 0.914 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
-
-initialize(Tests.CustomerServicePageTest)  Time elapsed: 0.923 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
+validatePhoneFieldTest(Tests.CustomerServicePageTest)  Time elapsed: 4.79 s  <<< FAILURE!
+java.lang.AssertionError: expected [Thank you! A text with the download link has been sent to your mobile device] but found []
+	at Tests.CustomerServicePageTest.validatePhoneFieldTest(CustomerServicePageTest.java:27)
 

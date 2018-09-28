@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.44" tests="40" errors="0" skipped="35" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="233.59" tests="10" errors="0" skipped="0" failures="6">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib"/>
-    <property name="sun.java.command" value="/Users/junedalam/Documents/July2018WebAutomation/Expedia/target/surefire/surefirebooter335405560023029536.jar /Users/junedalam/Documents/July2018WebAutomation/Expedia/target/surefire 2018-09-27T12-42-05_317-jvmRun1 surefire6889164496625784862tmp surefire_02832694298873249862tmp"/>
+    <property name="sun.java.command" value="/Users/junedalam/Documents/July2018WebAutomation/Expedia/target/surefire/surefirebooter5849090976862971645.jar /Users/junedalam/Documents/July2018WebAutomation/Expedia/target/surefire 2018-09-28T11-08-55_351-jvmRun1 surefire8753772261461539481tmp surefire_03786680857005423416tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/junedalam/Documents/July2018WebAutomation/Expedia/target/test-classes:/Users/junedalam/Documents/July2018WebAutomation/Expedia/target/classes:/Users/junedalam/Documents/July2018WebAutomation/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/junedalam/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/junedalam/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/junedalam/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/junedalam/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/junedalam/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/junedalam/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/junedalam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/junedalam/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/junedalam/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/junedalam/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/junedalam/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/junedalam/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/junedalam/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/junedalam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/junedalam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/junedalam/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/junedalam/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/selenium-server/3.14.0/selenium-server-3.14.0.jar:/Users/junedalam/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/junedalam/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/junedalam/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/junedalam/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/junedalam/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30.jar:/Users/junedalam/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/junedalam/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.0.0/htmlunit-cssparser-1.0.0.jar:/Users/junedalam/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.30/neko-htmlunit-2.30.jar:/Users/junedalam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.jar:/Users/junedalam/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.8.v20180619/jetty-repacked-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/jetty-client/9.4.8.v20180619/jetty-client-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20180619/jetty-http-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20180619/jetty-io-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20180619/jetty-util-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.8.v20180619/jetty-xml-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.30.0/htmlunit-driver-2.30.0.jar:/Users/junedalam/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.8.v20180619/websocket-api-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.8.v20180619/websocket-client-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.8.v20180619/websocket-common-9.4.8.v20180619.jar:/Users/junedalam/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/junedalam/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/junedalam/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/junedalam/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/junedalam/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/junedalam/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/junedalam/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/junedalam/.m2/repository/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar:/Users/junedalam/.m2/repository/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar:/Users/junedalam/.m2/repository/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar:/Users/junedalam/.m2/repository/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.jar:/Users/junedalam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/junedalam/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/junedalam/.m2/repository/org/mongodb/mongo-java-driver/3.6.0-beta1/mongo-java-driver-3.6.0-beta1.jar:/Users/junedalam/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar:/Users/junedalam/.m2/repository/com/aventstack/extentreports/3.0.7/extentreports-3.0.7.jar:/Users/junedalam/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/junedalam/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/junedalam/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/junedalam/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/junedalam/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/junedalam/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/junedalam/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/junedalam/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/junedalam/.m2/repository/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar:/Users/junedalam/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/Users/junedalam/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/junedalam/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/junedalam/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/junedalam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/junedalam/.m2/repository/io/rest-assured/json-path/3.1.0/json-path-3.1.0.jar:/Users/junedalam/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/junedalam/.m2/repository/io/rest-assured/rest-assured-common/3.1.0/rest-assured-common-3.1.0.jar:/Users/junedalam/.m2/repository/io/rest-assured/xml-path/3.1.0/xml-path-3.1.0.jar:/Users/junedalam/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/junedalam/.m2/repository/org/apache/poi/poi-ooxml/3.12/poi-ooxml-3.12.jar:/Users/junedalam/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/junedalam/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/junedalam/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/junedalam/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/junedalam/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/junedalam/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/junedalam/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/junedalam/.m2/repository/log4j/log4j/1.2.8/log4j-1.2.8.jar:/Users/junedalam/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/Users/junedalam/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/junedalam/Documents/July2018WebAutomation/Expedia/target/surefire/surefirebooter335405560023029536.jar"/>
+    <property name="surefire.real.class.path" value="/Users/junedalam/Documents/July2018WebAutomation/Expedia/target/surefire/surefirebooter5849090976862971645.jar"/>
     <property name="sun.boot.class.path" value="/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/resources.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/rt.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/sunrsasign.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/jsse.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/jce.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/charsets.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/lib/jfr.jar:/Users/junedalam/.jenkins/tools/hudson.model.JDK/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,144 +61,165 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="initialize" classname="Tests.SignUpPageTest" time="0.888">
-    <failure message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
+  <testcase name="verifyHumanOrRobotPageTitle" classname="Tests.SignUpPageTest" time="0.039">
+    <failure message="expected [Bot or Not?] but found [Expedia Travel: Search Hotels, Cheap Flights, Car Rentals &amp; Vacations]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Bot or Not?] but found [Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations]
+	at Tests.SignUpPageTest.verifyHumanOrRobotPageTitle(SignUpPageTest.java:23)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.expedia.com/'
+Navigated to:'https://www.expedia.com/'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 44121
+Only local connections are allowed.
+Sep 28, 2018 11:09:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="navbarLinksTest" classname="Tests.DataDrivenTests.RecentSearchesPageTest" time="0.001"/>
+  <testcase name="ValidateHeroBannerImgUrl" classname="Tests.HomePageTest" time="1.754"/>
+  <testcase name="testRoundTripFlightWithOneAdult" classname="Tests.HomePageTest" time="25.934"/>
+  <testcase name="ValidateUrl" classname="Tests.LoginPageTest" time="0.067">
+    <failure message="expected [https://www.expedia.com/user/signin] but found [https://www.expedia.com/]" type="java.lang.AssertionError">java.lang.AssertionError: expected [https://www.expedia.com/user/signin] but found [https://www.expedia.com/]
+	at Tests.LoginPageTest.ValidateUrl(LoginPageTest.java:25)
 </failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.expedia.com/'
+Navigated to:'https://www.expedia.com/'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 33172
+Only local connections are allowed.
+Sep 28, 2018 11:10:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
-  <testcase name="createTestObj" classname="Tests.SignUpPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="verifyHumanOrRobotPageTitle" classname="Tests.SignUpPageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.SignUpPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="initialize" classname="Tests.DataDrivenTests.RecentSearchesPageTest" time="0.906">
-    <failure message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
+  <testcase name="testLoginForm" classname="Tests.LoginPageTest" time="10.108">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#signin-loginid&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;juneds-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:18f2:50ee:7ad8:c61c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60754}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: 4d9740a9f103e0ec9978eed023713702&#10;*** Element info: {Using=css selector, value=#signin-loginid}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#signin-loginid"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60754}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4d9740a9f103e0ec9978eed023713702
+*** Element info: {Using=css selector, value=#signin-loginid}
+	at Tests.LoginPageTest.testLoginForm(LoginPageTest.java:45)
 </failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.expedia.com/'
+Navigated to:'https://www.expedia.com/'
+Trying to find Element By : By.cssSelector: #signin-loginid
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signin-loginid"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60754}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4d9740a9f103e0ec9978eed023713702
+*** Element info: {Using=css selector, value=#signin-loginid}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 48148
+Only local connections are allowed.
+Sep 28, 2018 11:10:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
-  <testcase name="createTestObj" classname="Tests.DataDrivenTests.RecentSearchesPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="navbarLinksTest" classname="Tests.DataDrivenTests.RecentSearchesPageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.DataDrivenTests.RecentSearchesPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="initialize" classname="Tests.HomePageTest" time="0.909">
-    <failure message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
+  <testcase name="AddPropertyTest" classname="Tests.CustomerServicePageTest" time="4.451"/>
+  <testcase name="SearchResultsCount" classname="Tests.CustomerServicePageTest" time="10.264">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search-term&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;juneds-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:18f2:50ee:7ad8:c61c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61186}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: d704b5df8ba29f11a37ee0080bc77363&#10;*** Element info: {Using=css selector, value=#search-term}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search-term"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61186}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d704b5df8ba29f11a37ee0080bc77363
+*** Element info: {Using=css selector, value=#search-term}
+	at Tests.CustomerServicePageTest.SearchResultsCount(CustomerServicePageTest.java:37)
 </failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.expedia.com/'
+Navigated to:'https://www.expedia.com/'
+Trying to find Element By : By.cssSelector: #search-term
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search-term"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61186}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: d704b5df8ba29f11a37ee0080bc77363
+*** Element info: {Using=css selector, value=#search-term}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 31766
+Only local connections are allowed.
+Sep 28, 2018 11:11:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
-  <testcase name="initialize" classname="Tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="ValidateHeroBannerImgUrl" classname="Tests.HomePageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.HomePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="testRoundTripFlightWithOneAdult" classname="Tests.HomePageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="initialize" classname="Tests.LoginPageTest" time="0.914">
-    <failure message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
+  <testcase name="validateLabelText" classname="Tests.CustomerServicePageTest" time="9.884">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[@class=&apos;aside-prompt&apos;]&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;juneds-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:18f2:50ee:7ad8:c61c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61401}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: 9c38943ef58e1a369f733d46baf8c793&#10;*** Element info: {Using=xpath, value=//h3[@class=&apos;aside-prompt&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@class='aside-prompt']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61401}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 9c38943ef58e1a369f733d46baf8c793
+*** Element info: {Using=xpath, value=//h3[@class='aside-prompt']}
+	at Tests.CustomerServicePageTest.validateLabelText(CustomerServicePageTest.java:21)
 </failure>
+    <system-out><![CDATA[Before navigating to: 'https://www.expedia.com/'
+Navigated to:'https://www.expedia.com/'
+Trying to find Element By : By.xpath: //h3[@class='aside-prompt']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[@class='aside-prompt']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'juneds-MacBook-Pro.local', ip: 'fe80:0:0:0:18f2:50ee:7ad8:c61c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/hn/f7wb9_d13yz...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61401}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 9c38943ef58e1a369f733d46baf8c793
+*** Element info: {Using=xpath, value=//h3[@class='aside-prompt']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 20797
+Only local connections are allowed.
+Sep 28, 2018 11:12:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
-  <testcase name="initialize" classname="Tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="ValidateUrl" classname="Tests.LoginPageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.LoginPageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="testLoginForm" classname="Tests.LoginPageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="initialize" classname="Tests.CustomerServicePageTest" time="0.923">
-    <failure message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;" type="org.testng.TestNGException">org.testng.TestNGException: 
-
-Parameter 'platform' is required by BeforeMethod on method initialize but has not been marked @Optional or defined
-
+  <testcase name="validatePhoneFieldTest" classname="Tests.CustomerServicePageTest" time="4.79">
+    <failure message="expected [Thank you! A text with the download link has been sent to your mobile device] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Thank you! A text with the download link has been sent to your mobile device] but found []
+	at Tests.CustomerServicePageTest.validatePhoneFieldTest(CustomerServicePageTest.java:27)
 </failure>
-  </testcase>
-  <testcase name="initialize" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="initialize" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="initialize" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="createTestObj" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="AddPropertyTest" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="tearDown" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="SearchResultsCount" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="validateLabelText" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
-  </testcase>
-  <testcase name="validatePhoneFieldTest" classname="Tests.CustomerServicePageTest" time="0">
-    <skipped message="&#10;Parameter &apos;platform&apos; is required by BeforeMethod on method initialize but has not been marked @Optional or defined&#10;"/>
+    <system-out><![CDATA[Before navigating to: 'https://www.expedia.com/'
+Navigated to:'https://www.expedia.com/'
+Trying to find Element By : By.cssSelector: #mad-t2d-form-input
+Found Element By : By.cssSelector: #mad-t2d-form-input
+Trying to find Element By : By.cssSelector: #mad-t2d-form-input
+Found Element By : By.cssSelector: #mad-t2d-form-input
+Trying to find Element By : By.xpath: //button[@class = 'btn-secondary btn-sub-action']
+Found Element By : By.xpath: //button[@class = 'btn-secondary btn-sub-action']
+Trying to click on: [[ChromeDriver: chrome on MAC (b26706dd51544b56d8c8e409d6b3d41d)] -> xpath: //button[@class = 'btn-secondary btn-sub-action']]
+Clicked on: [[ChromeDriver: chrome on MAC (b26706dd51544b56d8c8e409d6b3d41d)] -> xpath: //button[@class = 'btn-secondary btn-sub-action']]
+Trying to find Element By : By.xpath: //div[@class='alert-message']
+Found Element By : By.xpath: //div[@class='alert-message']
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8) on port 47611
+Only local connections are allowed.
+Sep 28, 2018 11:12:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
 </testsuite>

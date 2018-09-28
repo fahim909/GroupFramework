@@ -12,15 +12,6 @@
           <include name="createTestObj"/>
         </methods>
       </class> <!-- Tests.LoginPageTest -->
-      <class name="Tests.HomePageTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="createTestObj"/>
-          <include name="tearDown"/>
-          <include name="testRoundTripFlightWithOneAdult"/>
-          <include name="ValidateHeroBannerImgUrl"/>
-        </methods>
-      </class> <!-- Tests.HomePageTest -->
       <class name="Tests.CustomerServicePageTest">
         <methods>
           <include name="initialize"/>
@@ -28,7 +19,6 @@
           <include name="validateLabelText"/>
           <include name="validatePhoneFieldTest"/>
           <include name="createTestObj"/>
-          <include name="AddPropertyTest"/>
           <include name="SearchResultsCount"/>
         </methods>
       </class> <!-- Tests.CustomerServicePageTest -->
@@ -40,14 +30,6 @@
           <include name="createTestObj"/>
         </methods>
       </class> <!-- Tests.SignUpPageTest -->
-      <class name="Tests.DataDrivenTests.RecentSearchesPageTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-          <include name="navbarLinksTest"/>
-          <include name="createTestObj"/>
-        </methods>
-      </class> <!-- Tests.DataDrivenTests.RecentSearchesPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

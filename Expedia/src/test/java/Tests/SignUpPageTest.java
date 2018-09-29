@@ -16,7 +16,6 @@ public void createTestObj(){
     signUpPage = new SignUpPage();
 }
 
-
 @Test
     public void verifyHumanOrRobotPageTitle(){
     String title =  driver.getTitle();

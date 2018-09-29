@@ -1,16 +1,27 @@
 package Pages;
 
 import base.CommonAPI;
+import databases.ConnectToSqlDB;
 import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RecentSearchesPage extends CommonAPI {
+    ConnectToSqlDB connectToSqlDB;
+    List<String> searchList = new ArrayList<String>();
+    List<String> navbarItems;
+    HomePage homePage = new HomePage();
 
-    public RecentSearchesPage() {
-
+    public RecentSearchesPage() throws Exception {
+        this.connectToSqlDB = new ConnectToSqlDB();
+        searchList = connectToSqlDB.readDataBase("navbarlinks","links");
+        this.navbarItems = homePage.getNavBarTexts();
         PageFactory.initElements(driver,this);
     }
 
@@ -38,6 +49,12 @@ public class RecentSearchesPage extends CommonAPI {
     WebElement thirdSearchResult;
     public String thirdSearchResultText(){
         return thirdSearchResult.getText();
+    }
+
+    public void compareDBLinks(){
+        for (int i = 0; i <searchList.size()-1;i++){
+            Assert.assertTrue(searchList.get(i).contains(navbarItems.get(i).substring(0,navbarItems.get(i).indexOf("\nTab"))));
+        }
     }
 
 

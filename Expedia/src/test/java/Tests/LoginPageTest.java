@@ -18,8 +18,6 @@ public class LoginPageTest extends CommonAPI {
         loginPage = new LoginPage();
     }
 
-
-
     @Test
     public void ValidateUrl(){
         Assert.assertEquals(loginPage.returnUrl(),"https://www.expedia.com/user/signin");

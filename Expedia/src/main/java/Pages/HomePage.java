@@ -65,7 +65,6 @@ public class HomePage extends CommonAPI {
         System.out.println("travelors tab expected: "+TravelersTab.getAttribute("id")+" actual: "+TravelersTab.getAttribute("id"));
         TravelersTab.click();}
 
-
     @FindBy(xpath = "//button[@xpath = '35']")
     WebElement AdultsPlusOne ;
     public void AdultsPLusOneclick(){AdultsPlusOne.click();}
@@ -160,12 +159,6 @@ public class HomePage extends CommonAPI {
         Thread.sleep(900);
         Assert.assertEquals(getDestinationLabelText(),"Select your departure to "+destination);
 
-//        String resultPage = driver.getCurrentUrl();
-//        wait(3000);
-//        driver.get(resultPage);
-//        WebElement destinationLabel = driver.findElement(By.xpath("//span[@class='title-city-text']"));
-//        String cityText = destinationLabel.getText();
-//        Assert.assertTrue(cityText.contains(destination));
     }
 
     public void DiscoverySearchTest(String destination){

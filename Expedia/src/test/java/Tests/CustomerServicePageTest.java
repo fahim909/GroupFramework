@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 public class CustomerServicePageTest extends CommonAPI {
 
     CustomerServicePage customerServicePage;
-
     @BeforeMethod
     public void createTestObj(){
         this.customerServicePage = new CustomerServicePage();

@@ -106,23 +106,23 @@
         <!--</classes>-->
     <!--</test>-->
 
-    <!--<test name = "RecentSearchesPageTest(Mac/Chrome)">-->
-        <!--<parameter name="platform" value="Mac"/>-->
-        <!--<parameter name="browser" value="chrome"/>-->
-        <!--<parameter name="url" value="https://www.expedia.com"/>-->
-        <!--<classes>-->
-            <!--<class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>-->
-        <!--</classes>-->
-    <!--</test>-->
-
-    <test name = "RecentSearchesPageTest(Mac/FireFox)">
+    <test name = "RecentSearchesPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="firefox"/>
+        <parameter name="browser" value="chrome"/>
         <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>
         </classes>
     </test>
+
+    <!--<test name = "RecentSearchesPageTest(Mac/FireFox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>
 

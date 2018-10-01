@@ -1,5 +1,6 @@
 package JSONServer;
 
+import com.mongodb.util.JSON;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -14,7 +15,11 @@ import java.util.HashSet;
 import java.util.Random;
 
 public class PostsResource {
-
+/*
+    note: in order to have a api that excepts put/post/delete operations a local JSON server
+    has to be installed in order for these tests to work. please refer to the following
+    site for installation instructions.
+ */
     @Test
     public void postTest() {
 

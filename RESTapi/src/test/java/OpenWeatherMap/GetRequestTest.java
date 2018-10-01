@@ -2,6 +2,7 @@ package OpenWeatherMap;
 
 import static io.restassured.RestAssured.*;
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -22,8 +23,17 @@ public class GetRequestTest {
         Assert.assertTrue(time > 0.0);
     }
 
-//    @Test
-//    public void testResponseSize(){
-//
-//    }
+    @Test
+    public void testResponseCity(){
+        JsonPath jsonPathEvaluator = get(url).jsonPath();
+        String city = jsonPathEvaluator.get("name");
+        Assert.assertEquals(city,"London");
+    }
+
+    @Test
+    public void testResponseID(){
+        JsonPath jsonPathEvaluator = get(url).jsonPath();
+         int id = jsonPathEvaluator.get("id");
+        Assert.assertEquals(id,2643743);
+    }
 }

@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Cnn</module>
         <module>Expedia</module>
+        <module>RESTapi</module>
     </modules>
 
     <dependencyManagement>
@@ -129,7 +130,15 @@
                 <artifactId>openxml4j</artifactId>
                 <version>1.0-beta</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.0.6</version>
+            </dependency>
         </dependencies>
+
+
     </dependencyManagement>
 
     <build>

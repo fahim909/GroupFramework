@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class ExcelReader2 {
 
-    public static String Path = "/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/java/Tests/DataDrivenTests/ExpediaTestData.xls";
+    public static String Path = "/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xls";
     static Workbook book;
     static Sheet sheet;
 

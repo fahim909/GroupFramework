@@ -93,7 +93,7 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="url" value="https://www.expedia.com"/>
         <classes>
-            <class name="Tests.DataDrivenTests.DataSearchPage"/>
+            <class name="Tests.DataSearchPage"/>
         </classes>
     </test>
 
@@ -102,7 +102,7 @@
         <parameter name="browser" value="firefox"/>
         <parameter name="url" value="https://www.expedia.com"/>
         <classes>
-            <class name="Tests.DataDrivenTests.DataSearchPage"/>
+            <class name="Tests.DataSearchPage"/>
         </classes>
     </test>
 
@@ -111,7 +111,7 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="url" value="https://www.expedia.com"/>
         <classes>
-            <class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>
+            <class name="Tests.RecentSearchesPageTest"/>
         </classes>
     </test>
 
@@ -120,7 +120,7 @@
         <parameter name="browser" value="firefox"/>
         <parameter name="url" value="https://www.expedia.com"/>
         <classes>
-            <class name="Tests.DataDrivenTests.RecentSearchesPageTest"/>
+            <class name="Tests.RecentSearchesPageTest"/>
         </classes>
     </test>
 

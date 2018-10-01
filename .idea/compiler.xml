@@ -9,6 +9,7 @@
         <module name="Cnn" />
         <module name="Expedia" />
         <module name="Generic" />
+        <module name="RESTapi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="Cnn" target="1.8" />
       <module name="Expedia" target="1.8" />
       <module name="Generic" target="1.8" />
+      <module name="RESTapi" target="1.8" />
       <module name="WebAutomation" target="1.8" />
     </bytecodeTargetLevel>
   </component>

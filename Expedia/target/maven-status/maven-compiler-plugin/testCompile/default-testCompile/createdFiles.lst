@@ -1,6 +1,7 @@
-Tests/DataDrivenTests/DataSearchPage.class
+Tests/TestFiles/ThingsToDoPageTest.class
+Tests/RecentSearchesPageTest.class
 Tests/CustomerServicePageTest.class
 Tests/HomePageTest.class
 Tests/SignUpPageTest.class
-Tests/DataDrivenTests/RecentSearchesPageTest.class
+Tests/DataSearchPage.class
 Tests/LoginPageTest.class

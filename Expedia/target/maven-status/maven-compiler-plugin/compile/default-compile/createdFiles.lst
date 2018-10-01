@@ -2,4 +2,5 @@ Pages/CustomerServicePage.class
 Pages/HomePage.class
 Pages/SignUpPage.class
 Pages/LoginPage.class
+Pages/ThingsToDoPage.class
 Pages/RecentSearchesPage.class

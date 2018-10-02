@@ -2,6 +2,7 @@ package Pages;
 
 import base.CommonAPI;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -161,10 +162,11 @@ public class HomePage extends CommonAPI {
 
     }
 
-    public void DiscoverySearchTest(String destination){
+    public int DiscoverySearchTest(String destination){
         DiscoverButton.click();
-        DiscoverSearchBox.sendKeys(destination);
-        DiscoverSearchButton.click();
+        DiscoverSearchBox.sendKeys(destination, Keys.ENTER);
+        List<WebElement> resultcollection = driver.findElements(By.xpath("//a[contains(text(),"+destination+")]"));
+        return resultcollection.size();
     }
 
 }

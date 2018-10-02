@@ -13,6 +13,8 @@
         <listener class-name="reporting.ExtentReporterNG"/>
     </listeners>
 
+    <parameter name="useCloud" value="false"/>
+
     <test name = "HomePageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>

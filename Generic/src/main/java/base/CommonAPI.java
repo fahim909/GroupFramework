@@ -22,6 +22,7 @@ import utilities.WebEventListener;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -33,6 +34,8 @@ public class CommonAPI {
      public static WebDriver driver;
      public static EventFiringWebDriver e_driver;
      public static WebEventListener eventListener;
+     public static String UserName = "junedalam1";
+     public static String AccessKey = "63mtFyCzVt7soLPZfeHM";
      public CommonAPI(){
      }
     /**
@@ -46,103 +49,24 @@ public class CommonAPI {
 
 
     @BeforeMethod
-    @Parameters({"platform", "browser", "url"})
-    public void initialize(@Optional("Mac") String platform,@Optional("chrome") String browser,@Optional("https://www.expedia.com/") String url) {
-        setUp(platform, browser, url);
-
+    @Parameters({"platform", "browser", "url","useCloud"})
+    public static void setUp(@Optional("Mac") String platform,@Optional("chrome") String browser,@Optional("https://www.expedia.com/") String url,boolean useCloud) throws MalformedURLException {
+        if(useCloud==true){
+            setUpBrowserStack();
+            setEventListener();
+            driver.get(url);
+        }else {
+            localDriver(platform, browser);
+            setEventListener();
+            driver.get(url);
+        }
     }
-
-
-//    public String browserstack_username= "junedalam1";
-//    public String browserstack_accesskey = "63mtFyCzVt7soLPZfeHM";
-//    public String saucelabs_username = "";
-//    public String saucelabs_accesskey = "";
-//
-//    @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
-//    @BeforeMethod
-//    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-//                      @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-//                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
-//        System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
-//        if(useCloudEnv==true){
-//            if(cloudEnvName.equalsIgnoreCase("browserstack")) {
-//                getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
-//            }else if (cloudEnvName.equalsIgnoreCase("saucelabs")){
-//                getCloudDriver(cloudEnvName,saucelabs_username, saucelabs_accesskey,os,os_version, browserName, browserVersion);
-//            }
-//        }else{
-//            getLocalDriver(os, browserName);
-//        }
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-//        driver.get(url);
-//        driver.manage().window().maximize();
-//    }
-//    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
-//        if(browserName.equalsIgnoreCase("chrome")){
-//            if(OS.equalsIgnoreCase("OS X")){
-//                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
-//            }else if(OS.equalsIgnoreCase("Windows")){
-//                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
-//            }
-//            driver = new ChromeDriver();
-//        } else if(browserName.equalsIgnoreCase("chrome-options")){
-//            ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--disable-notifications");
-//            if(OS.equalsIgnoreCase("OS X")){
-//                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
-//            }else if(OS.equalsIgnoreCase("Windows")){
-//                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
-//            }
-//            driver = new ChromeDriver(options);
-//        }
-//
-//        else if(browserName.equalsIgnoreCase("firefox")){
-//            if(OS.equalsIgnoreCase("OS X")){
-//                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver");
-//            }else if(OS.equalsIgnoreCase("Windows")) {
-//                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
-//            }
-//            driver = new FirefoxDriver();
-//
-//        } else if(browserName.equalsIgnoreCase("ie")) {
-//            System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
-//            driver = new InternetExplorerDriver();
-//        }
-//        return driver;
-//
-//    }
-//
-//
-//    public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
-//                                    String browserVersion)throws IOException {
-//        DesiredCapabilities cap = new DesiredCapabilities();
-//        cap.setCapability("browser",browserName);
-//        cap.setCapability("browser_version",browserVersion);
-//        cap.setCapability("os", os);
-//        cap.setCapability("os_version", os_version);
-//        if(envName.equalsIgnoreCase("Saucelabs")){
-//            //resolution for Saucelabs
-//            driver = new RemoteWebDriver(new URL("http://"+envUsername+":"+envAccessKey+
-//                    "@ondemand.saucelabs.com:80/wd/hub"), cap);
-//        }else if(envName.equalsIgnoreCase("Browserstack")) {
-//            cap.setCapability("resolution", "1024x768");
-//            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
-//                    "@hub-cloud.browserstack.com/wd/hub"), cap);
-//        }
-//        return driver;
-//    }
-
-
     @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(10000);
         driver.close();
     }
-
-
-    public static void setUp(String platform, String browser, String url) {
-        localDriver(platform, browser);
+    public static void setEventListener(){
         e_driver = new EventFiringWebDriver(driver);
         eventListener = new WebEventListener();
         e_driver.register(eventListener);
@@ -151,9 +75,7 @@ public class CommonAPI {
         driver.manage().deleteAllCookies();
         //driver.manage().timeouts().pageLoadTimeout(8, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(8,TimeUnit.SECONDS);
-        driver.get(url);
     }
-
     public static void localDriver(String platform, String browser) {
         if (platform.contains("Mac")) {
             if (browser.equalsIgnoreCase("Chrome")) {
@@ -177,7 +99,16 @@ public class CommonAPI {
         }
 
     }
-
+public static void setUpBrowserStack() throws MalformedURLException {
+    DesiredCapabilities cap = new DesiredCapabilities();
+    cap.setCapability("browser","chrome");
+    cap.setCapability("browser_version","68.0");
+    cap.setCapability("os", "OS X");
+    cap.setCapability("os_version", "Sierra");
+    String browserStackUrl = "https://"+UserName+":"+AccessKey+"@hub-cloud.browserstack.com/wd/hub";
+    URL serverUrl = new URL(browserStackUrl);
+    driver = new RemoteWebDriver(serverUrl,cap);
+}
     public void typeOnWebElement(WebElement we, String value) {
        we.sendKeys(value);
     }

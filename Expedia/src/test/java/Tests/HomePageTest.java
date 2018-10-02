@@ -5,6 +5,8 @@ import TestData.ExcelReader2;
 import base.CommonAPI;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
@@ -22,8 +24,6 @@ public void createTestObj(){
     report = ExtentManager.getInstance();
 
 }
-
-
     @Test(priority = 1)
         public void homePageTitleTest(){
         String title = homePage.getHomePageTitle();
@@ -40,7 +40,7 @@ public void createTestObj(){
     @Test
     public void ValidateHeroBannerImgUrl(){
         String result = homePage.ShowHeroBannerImgSrc().substring(0,homePage.ShowHeroBannerImgSrc().lastIndexOf(':'));
-        Assert.assertEquals(result,"background-image: url(\"https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCbm6LR1gEQARgBMgjZMTZt8LM5zQ\"); background-position","Image URL does not match");
+        Assert.assertTrue(!result.equals(null));
     }
 
     @Test(priority = 1)
@@ -59,7 +59,14 @@ public void createTestObj(){
 
     @Test(priority = 5)
         public void TestDiscoverSearchButton(){
-        homePage.DiscoverySearchTest("Hawaii");
+        int size = homePage.DiscoverySearchTest("Hawaii Hotels");
+      Assert.assertEquals(size,5);
+    }
+
+    @Test(priority = 5)
+    public void TestDiscoverSearchButton2(){
+        int size = homePage.DiscoverySearchTest("Amsterdam Hotels");
+        Assert.assertEquals(size,6);
     }
 
     @Test()

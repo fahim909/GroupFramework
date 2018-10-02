@@ -17,7 +17,7 @@ import java.util.Random;
 public class PostsResource {
 /*
     note: in order to have a api that excepts put/post/delete operations a local JSON server
-    has to be installed in order for these tests to work. please refer to the following
+    has to be installed and running in order for these tests to work. please refer to the following
     site for installation instructions.
  */
     @Test
@@ -27,9 +27,7 @@ public class PostsResource {
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
 
-        Random random = new Random(100);
-
-        jsonObject.put("id", 56);
+        jsonObject.put("id", 82);
         jsonObject.put("title", "Huckleberry Fin");
         jsonObject.put("author", "Mark Twain");
 
@@ -43,7 +41,7 @@ public class PostsResource {
     public void deletePost() {
         RequestSpecification request = RestAssured.given();
 
-        Response response = request.delete("http://localhost:3000/posts/56");
+        Response response = request.delete("http://localhost:3000/posts/82");
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 200);
 
@@ -56,12 +54,12 @@ public class PostsResource {
         JSONObject jsonObject = new JSONObject();
 
 
-        jsonObject.put("id", 56);
+        jsonObject.put("id", 75);
         jsonObject.put("title", "Huckleberry Fin");
         jsonObject.put("author", "Homer Simpson");
 
         request.body(jsonObject.toJSONString());
-        Response response = request.put("http://localhost:3000/posts/56");
+        Response response = request.put("http://localhost:3000/posts/75");
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 200);
     }

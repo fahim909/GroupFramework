@@ -109,6 +109,23 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//ul[@class='tabs cf col']//button/span[2]")
     WebElement navBarItems;
 
+    @FindBy(css = "#tab-vacation-rental-tab-hp")
+    WebElement vacationsRentalTab;
+
+    @FindBy(css = "#hotel-destination-hp-vacationRental")
+    WebElement vacationGoingToField;
+
+    @FindBy(css = "#hotel-checkin-hp-vacationRental")
+    WebElement vacationCheckInField;
+
+    @FindBy(css = "#hotel-checkout-hp-vacationRental")
+    WebElement vacationCheckOutField;
+
+    @FindBy(xpath = "//div[@class='cols-nested']//button[@type='submit']")
+    WebElement vacationSearchButton;
+
+
+
     public List<String> getNavBarTexts(){
         List<WebElement> navitems;
         navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
@@ -169,5 +186,24 @@ public class HomePage extends CommonAPI {
         return resultcollection.size();
     }
 
+    public void clickOnVacationRentalTab(){
+        clickOnWebElement(vacationsRentalTab);
+    }
+
+    public  void typeOnVacationGoingToField(String str){
+        typeOnWebElement(vacationGoingToField,str);
+    }
+
+    public void typeOnVacationCheckingInField(String str){
+        typeOnWebElement(vacationCheckInField,str);
+    }
+
+    public void typeOnVacationCheckingOutField(String str){
+        typeOnWebElement(vacationCheckOutField,str);
+    }
+
+    public void clickOnVacationSearchButton(){
+        clickOnWebElement(vacationSearchButton);
+    }
 }
 

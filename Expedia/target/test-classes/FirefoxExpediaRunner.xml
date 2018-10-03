@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FireFox Expedia API Automation Script " parallel="false">
+    <!--
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserVersion" value="60.0"/>
+    -->
+
+    <listeners>
+        <listener class-name="reporting.ExtentReporterNG"/>
+    </listeners>
+
+   <!--<test name = "HomePageTest(Mac/firefox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.HomePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "SignUpPageTest(Mac/firefox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/user/createaccount?fromheader=true"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.SignUpPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "LoginUpPageTest(Mac/firefox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/user/signin"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.LoginPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "CustomerServicePageTest(Mac/firefox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/service"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.CustomerServicePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "DataDrivenHomePageTest(Mac/firefox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.DataSearchPage"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "RecentSearchesPageTest(Mac/FireFox)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.DataBaseHomePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <test name = "KeyWordDrivenHomePageTest(Mac/FireFox)">
+        <parameter name="platform" value="Mac"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="Tests.testKeywordDriven.KeywordDrivenHomePageTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+

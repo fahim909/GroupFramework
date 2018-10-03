@@ -2,13 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_java6_1_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_jetty_1_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/KeyWordDrivenSheet.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/XSSFDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_23_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_22_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_23_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/Expedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/Expedia.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/screenshots/Screenshot (21.32.2018-21;32PM).png" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/screenshots/Screenshot (21.32.2018-21;32PM).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/RecentSearchesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/DataBaseHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/RecentSearchesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataBaseHomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ThingsToDoPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/ThingsToDoPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/Expedia-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/Expedia-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/RecentSearchesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/ThingsToDoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/ThingsToDoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/RecentSearchesPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/TestFiles/ThingsToDoPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/HSSFDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/RESTapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/RESTapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/RESTapi-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/RESTapi-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/Post_Put_Delete_Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/PostsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/PostsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +104,11 @@
           <entry key="class" value="3" />
           <entry key="html" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="237" />
+          <entry key="java" value="271" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="42" />
+          <entry key="xml" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -63,26 +117,26 @@
           <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="237" />
+          <entry key="JAVA" value="271" />
           <entry key="JSON" value="1" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="42" />
+          <entry key="XML" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="28" />
-          <entry key="java" value="12637" />
+          <entry key="dummy" value="55" />
+          <entry key="java" value="13605" />
           <entry key="properties" value="31" />
-          <entry key="xml" value="633" />
+          <entry key="xml" value="811" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12637" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="JAVA" value="13605" />
+          <entry key="PLAIN_TEXT" value="55" />
           <entry key="Properties" value="31" />
-          <entry key="XML" value="633" />
+          <entry key="XML" value="811" />
         </counts>
       </usages-collector>
     </session>
@@ -93,42 +147,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="-548">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="644">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
-                <element signature="e#8926#8927#0" expanded="true" />
-                <element signature="e#8959#8960#0" expanded="true" />
-                <element signature="e#9010#9011#0" expanded="true" />
-                <element signature="e#9036#9037#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/XSSFDataReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +203,12 @@
       <find>tear</find>
       <find>.gcw-storeable.</find>
       <find>extent</find>
+      <find>static</find>
+      <find>openxml4j</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Expedia/src/main/java/Pages</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,22 +217,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/PageObject.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/main/java/PageObjectModel/HomePage.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/java/HomePageTests/SearchTests.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/PageObject.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/menu/MenuPage.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/search/TestSearch.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataDrivenHomePageTest.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataDrivenTests/DataDrivenHomePageTest.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataDrivenTests/DataSearchPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java" />
         <option value="$PROJECT_DIR$/Generic/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java" />
@@ -187,28 +237,37 @@
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/SignUpPageTest.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/RecentSearchesPage.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataDrivenTests/RecentSearchesPageTest.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/RecentSearchesPageTest.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/ThingsToDoPage.java" />
         <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ThingsToDoPageTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/GoogleSheetReader.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/GoogleSheetsPage.java" />
-        <option value="$PROJECT_DIR$/RESTapi/pom.xml" />
-        <option value="$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/Post_Put_Delete_Test.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/ProfileResource.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostResource.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/Post1Resource.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/CommonUtilities.java" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/RestRunner.xml" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/Resources/RestRunner.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java" />
+        <option value="$PROJECT_DIR$/RESTapi/pom.xml" />
         <option value="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" />
         <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
-        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataBaseHomePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/main/java/Pages/DataBaseHomePage.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/HSSFDataReader.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/TestData/XSSFDataReader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml" />
+        <option value="$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml" />
       </list>
     </option>
   </component>
@@ -335,6 +394,34 @@
             <path>
               <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="testKeywordDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,7 +452,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="TestData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,7 +462,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538497606714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538589973143" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -384,21 +471,21 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataDrivenTests" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/TestData" />
-      <recent name="$PROJECT_DIR$/Expedia/Drivers" />
-      <recent name="$PROJECT_DIR$/Expedia/src/main/java/Pages" />
+      <recent name="$PROJECT_DIR$/Expedia/src/test" />
+      <recent name="$PROJECT_DIR$/Amazon/src/test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Tests" />
       <recent name="Tests.DataDrivenTests" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
       <recent name="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataDrivenTests" />
-      <recent name="$PROJECT_DIR$/Expedia/src/test" />
-      <recent name="$PROJECT_DIR$/Amazon/src/test" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java/TestData" />
+      <recent name="$PROJECT_DIR$/Expedia/Drivers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +500,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/FirefoxExpediaRunner.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -432,17 +519,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsResource.deletePost" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTapi" />
+    <configuration name="KeywordDrivenHomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JSONServer.*" />
+          <option name="PATTERN" value="Tests.testKeywordDriven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="JSONServer" />
-      <option name="MAIN_CLASS_NAME" value="JSONServer.PostsResource" />
-      <option name="METHOD_NAME" value="deletePost" />
+      <option name="PACKAGE_NAME" value="Tests.testKeywordDriven" />
+      <option name="MAIN_CLASS_NAME" value="Tests.testKeywordDriven.KeywordDrivenHomePageTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.testKeywordDriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.testKeywordDriven" />
+      <option name="MAIN_CLASS_NAME" value="Tests.testKeywordDriven.KeywordDrivenHomePageTest" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -451,37 +555,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsResource.postTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSONServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JSONServer" />
-      <option name="MAIN_CLASS_NAME" value="JSONServer.PostsResource" />
-      <option name="METHOD_NAME" value="postTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsResource.putPost" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JSONServer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JSONServer" />
-      <option name="MAIN_CLASS_NAME" value="JSONServer.PostsResource" />
-      <option name="METHOD_NAME" value="putPost" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ChromeExpediaRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -500,9 +577,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/junedalam/Documents/July2018WebAutomation/RESTapi/src/test/Resources/RestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RESTapi" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/RESTapi/src/test/Resources/RestRunner.xml" />
+    <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/FirefoxExpediaRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Expedia" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -529,19 +606,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.PostsResource.deletePost" />
-      <item itemvalue="TestNG.PostsResource.postTest" />
-      <item itemvalue="TestNG.PostsResource.putPost" />
-      <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/RESTapi/src/test/Resources/RestRunner.xml" />
       <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" />
+      <item itemvalue="TestNG.KeywordDrivenHomePageTest.verifyPageTitle" />
+      <item itemvalue="TestNG.KeywordDrivenHomePageTest" />
+      <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ChromeExpediaRunner.xml" />
+      <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/FirefoxExpediaRunner.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/FirefoxExpediaRunner.xml" />
+        <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ChromeExpediaRunner.xml" />
+        <item itemvalue="TestNG.KeywordDrivenHomePageTest.verifyPageTitle" />
         <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" />
-        <item itemvalue="TestNG./Users/junedalam/Documents/July2018WebAutomation/RESTapi/src/test/Resources/RestRunner.xml" />
-        <item itemvalue="TestNG.PostsResource.putPost" />
-        <item itemvalue="TestNG.PostsResource.postTest" />
-        <item itemvalue="TestNG.PostsResource.deletePost" />
+        <item itemvalue="TestNG.KeywordDrivenHomePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -559,35 +636,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 03m 56s.xml">
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 12h 39m 20s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.03 at 13h 21m 04s.xml">
       <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 04m 15s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 26m 48s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 04m 34s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 31m 16s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 05m 10s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 32m 31s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 10m 38s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 33m 08s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 16m 05s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 33m 58s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 21m 55s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 43m 06s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 23m 32s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 47m 18s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 25m 26s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.02 at 12h 26m 54s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
+    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 50m 09s.xml">
+      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -601,13 +678,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5011765" side_tool="true" weight="0.20193861" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49882352" visible="true" weight="0.27705976" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49882352" visible="true" weight="0.27705976" />
       <window_info id="Structure" order="5" weight="0.24958949" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -616,7 +692,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.30273974" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.360274" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -709,76 +785,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/annotations/DataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar!/org/openqa/selenium/support/events/EventFiringWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/screenshots/ValidateHeroBannerImgUrl (09.20.2018-13:23PM).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebAutomation.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="995" selection-start-line="995" selection-end-line="995" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utilities/WebEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utilities/GetScreenShots.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="718" selection-start-line="718" selection-end-line="718" />
         </state>
       </provider>
     </entry>
@@ -793,13 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -822,13 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/RecentSearchesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -861,20 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/RecentSearchesPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -887,39 +874,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/ThingsToDoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ThingsToDoPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Expedia/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RESTapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="101" column="21" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/CommentResource.java" />
     <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/ProfileResource.java" />
@@ -932,13 +891,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/CommonUtilities.java" />
     <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/RestRunner.xml" />
-    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="753">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
@@ -949,54 +905,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java">
+    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/OpenWeatherMap/GetRequestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="540">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/RESTapi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+        <state relative-caret-position="253">
+          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/HomePageTest.java">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/DataBaseHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="615">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/DataBaseHomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/ThingsToDoPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/ThingsToDoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="334">
+          <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/TestMethodWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="366" selection-start-line="366" selection-end-line="366" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
-            <element signature="e#8926#8927#0" expanded="true" />
-            <element signature="e#8959#8960#0" expanded="true" />
-            <element signature="e#9010#9011#0" expanded="true" />
-            <element signature="e#9036#9037#0" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="125">
+          <caret line="1208" selection-start-line="1208" selection-end-line="1208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+          <folding>
+            <element signature="e#6533#6534#0" expanded="true" />
+            <element signature="e#6568#6569#0" expanded="true" />
+            <element signature="e#6648#6649#0" expanded="true" />
+            <element signature="e#6682#6683#0" expanded="true" />
+            <element signature="e#6770#6771#0" expanded="true" />
+            <element signature="e#6828#6829#0" expanded="true" />
+            <element signature="e#6892#6893#0" expanded="true" />
+            <element signature="e#6950#6951#0" expanded="true" />
+            <element signature="e#6997#6998#0" expanded="true" />
+            <element signature="e#7050#7051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/HSSFDataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/XSSFDataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="718" selection-start-line="718" selection-end-line="718" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

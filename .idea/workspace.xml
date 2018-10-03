@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6057b695-a2a9-44bd-aef6-a6a99f121e8a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_java6_1_23_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_jetty_1_23_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/KeyWordDrivenSheet.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/XSSFDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_23_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_22_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_23_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/target/Cnn-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/Expedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/Expedia.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/main/java/Pages/RecentSearchesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/main/java/Pages/DataBaseHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/RecentSearchesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/DataBaseHomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ExpediaTestData.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/java/Tests/TestFiles/ThingsToDoPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/src/test/java/Tests/ThingsToDoPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/src/test/resources/ExpediaRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/Expedia-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/Expedia-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/RecentSearchesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/classes/Pages/ThingsToDoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/classes/Pages/ThingsToDoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/ExpediaRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/RecentSearchesPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expedia/target/test-classes/Tests/TestFiles/ThingsToDoPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/TestData/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/HSSFDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/RESTapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/RESTapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/src/test/java/JSONServer/PostsResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/target/RESTapi-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/RESTapi-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/Post_Put_Delete_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/PostsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/RESTapi/target/test-classes/JSONServer/PostsResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,7 +48,7 @@
           <entry key="json" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="59" />
+          <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -120,7 +60,7 @@
           <entry key="JAVA" value="271" />
           <entry key="JSON" value="1" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="59" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -145,50 +85,7 @@
     <favorites_list name="July2018WebAutomation" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/ExcelReader2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/TestData/XSSFDataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -332,128 +229,6 @@
               <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="testKeywordDriven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Expedia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="July2018WebAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="July2018WebAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestData" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -462,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538589973143" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538609738924" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -636,15 +411,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 12h 39m 20s.xml">
-      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ExpediaRunner_xml - 2018.10.03 at 13h 21m 04s.xml">
-      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ExpediaRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 26m 48s.xml">
-      <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 31m 16s.xml">
       <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
     </history-entry>
@@ -665,6 +431,15 @@
     </history-entry>
     <history-entry file="KeywordDrivenHomePageTest_verifyPageTitle - 2018.10.03 at 13h 50m 09s.xml">
       <configuration name="KeywordDrivenHomePageTest.verifyPageTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_ChromeExpediaRunner_xml - 2018.10.03 at 14h 04m 57s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/ChromeExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_FirefoxExpediaRunner_xml - 2018.10.03 at 14h 05m 54s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/FirefoxExpediaRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_junedalam_Documents_July2018WebAutomation_Expedia_src_test_resources_FirefoxExpediaRunner_xml - 2018.10.03 at 14h 07m 14s.xml">
+      <configuration name="/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/resources/FirefoxExpediaRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -689,10 +464,10 @@
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.3260274" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3260274" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.30273974" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.30273974" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.360274" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1093,24 +868,24 @@
     <entry file="file://$PROJECT_DIR$/Expedia/src/test/java/Tests/testKeywordDriven/KeywordDrivenHomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="-458">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/FirefoxExpediaRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Expedia/src/test/resources/ChromeExpediaRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-614">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1166,7 +941,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>RESTapi</last-edited>
+          <last-edited>WebAutomation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

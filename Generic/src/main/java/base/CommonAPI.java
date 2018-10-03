@@ -38,15 +38,6 @@ public class CommonAPI {
      public static String AccessKey = "63mtFyCzVt7soLPZfeHM";
      public CommonAPI(){
      }
-    /**
-     * Using parameters to make it more customizable, User is able to
-     * provide desired information about @params[platform, browser, url]
-     * in their TestNG.xml file rather than hard coding it.
-     * @param platform
-     * @param browser
-     * @param url
-     */
-
 
     @BeforeMethod
     @Parameters({"platform", "browser", "url","useCloud"})
@@ -112,7 +103,6 @@ public static void setUpBrowserStack() throws MalformedURLException {
     public static void typeOnWebElement(WebElement we, String value) {
        we.sendKeys(value);
     }
-
     public  static void clickOnWebElement(WebElement we){
         we.click();
     }

@@ -50,7 +50,7 @@ public class CommonAPI {
 
     @BeforeMethod
     @Parameters({"platform", "browser", "url","useCloud"})
-    public static void setUp(@Optional("Mac") String platform,@Optional("chrome") String browser,@Optional("https://www.expedia.com/") String url,boolean useCloud) throws MalformedURLException {
+    public static void setUp(@Optional("Mac") String platform,@Optional("chrome") String browser,@Optional("https://www.expedia.com/") String url,@Optional("false") boolean useCloud) throws MalformedURLException {
         if(useCloud==true){
             setUpBrowserStack();
             setEventListener();
@@ -109,11 +109,11 @@ public static void setUpBrowserStack() throws MalformedURLException {
     URL serverUrl = new URL(browserStackUrl);
     driver = new RemoteWebDriver(serverUrl,cap);
 }
-    public void typeOnWebElement(WebElement we, String value) {
+    public static void typeOnWebElement(WebElement we, String value) {
        we.sendKeys(value);
     }
 
-    public void clickOnWebElement(WebElement we){
+    public  static void clickOnWebElement(WebElement we){
         we.click();
     }
 }

@@ -12,13 +12,13 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecentSearchesPage extends CommonAPI {
+public class DataBaseHomePage extends CommonAPI {
     ConnectToSqlDB connectToSqlDB;
     List<String> searchList = new ArrayList<String>();
     List<String> navbarItems;
     HomePage homePage = new HomePage();
 
-    public RecentSearchesPage() throws Exception {
+    public DataBaseHomePage() throws Exception {
         this.connectToSqlDB = new ConnectToSqlDB();
         searchList = connectToSqlDB.readDataBase("navbarlinks","links");
         this.navbarItems = homePage.getNavBarTexts();
@@ -56,7 +56,4 @@ public class RecentSearchesPage extends CommonAPI {
             Assert.assertTrue(searchList.get(i).contains(navbarItems.get(i).substring(0,navbarItems.get(i).indexOf("\nTab"))));
         }
     }
-
-
-
 }

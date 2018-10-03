@@ -26,6 +26,4 @@ public class DataSearchPage extends CommonAPI {
     public void testRoundTripFlightWithOneAdult(String from, String to, String departing, String returning) throws InterruptedException {
         homePage.searchRoundTripFlightOneAdult(from,to,departing,returning);
     }
-
-
 }

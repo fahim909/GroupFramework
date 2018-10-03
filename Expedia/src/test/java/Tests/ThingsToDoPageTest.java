@@ -1,4 +1,4 @@
-package Tests.TestFiles;
+package Tests;
 
 import Pages.ThingsToDoPage;
 import base.CommonAPI;

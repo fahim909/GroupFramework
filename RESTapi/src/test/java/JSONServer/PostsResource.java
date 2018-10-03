@@ -27,9 +27,9 @@ public class PostsResource {
         request.header("Content-Type", "application/json");
         JSONObject jsonObject = new JSONObject();
 
-        jsonObject.put("id", 82);
-        jsonObject.put("title", "Huckleberry Fin");
-        jsonObject.put("author", "Mark Twain");
+        jsonObject.put("id", 91);
+        jsonObject.put("title", "juned");
+        jsonObject.put("author", "QA");
 
         request.body(jsonObject.toJSONString());
         Response response = request.post("http://localhost:3000/posts");
@@ -50,16 +50,19 @@ public class PostsResource {
     @Test
     public void putPost() {
         RequestSpecification request = RestAssured.given();
+
         request.header("Content-Type", "application/json");
+
         JSONObject jsonObject = new JSONObject();
-
-
         jsonObject.put("id", 75);
         jsonObject.put("title", "Huckleberry Fin");
         jsonObject.put("author", "Homer Simpson");
 
         request.body(jsonObject.toJSONString());
+
+
         Response response = request.put("http://localhost:3000/posts/75");
+
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 200);
     }

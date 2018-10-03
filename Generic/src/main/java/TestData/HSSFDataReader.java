@@ -15,7 +15,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class DataReader {
+public class HSSFDataReader {
     HSSFWorkbook wb = null;
     HSSFSheet sheet = null;
     Cell cell = null;

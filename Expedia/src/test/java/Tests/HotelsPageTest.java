@@ -35,7 +35,7 @@ public class HotelsPageTest extends CommonAPI {
     }
     @Test
     public void testValidateEuropeHotelLinkCount(){
-        hotelsPage.validateLabelEuropeHotels();
+        hotelsPage.validateEuropeHotelLinkCount();
     }
     @Test
     public void testValidateInternationalHotelLinkCount(){
@@ -80,5 +80,9 @@ public class HotelsPageTest extends CommonAPI {
     @Test
     public void pageUrlTest(){
         hotelsPage.properUrl();
+    }
+    @Test
+    public void hotelsLinkIsUnderlinedTest(){
+        hotelsPage.hotelsLinkIsUnderlined();
     }
 }

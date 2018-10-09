@@ -7,9 +7,13 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
+
+import java.util.List;
 
 public class HomePageTest extends CommonAPI {
 
@@ -26,24 +30,19 @@ public void createTestObj(){
 }
     @Test(priority = 1)
         public void homePageTitleTest(){
-        String title = homePage.getHomePageTitle();
-        Assert.assertEquals(title,"Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations");
+        homePage.getHomePageTitle();
     }
     @Test(priority = 2)
       public void isLogoVisibleTest(){
-        //boolean result=homePage.ValidateExpediaLogo();
-        //Assert.assertEquals(result,true);
-          System.out.println(homePage.ValidateExpediaLogo());
+        homePage.validateExpediaLogo();
     }
     @Test
     public void validateHeroBannerImgUrl(){
-        String result = homePage.ShowHeroBannerImgSrc().substring(0,homePage.ShowHeroBannerImgSrc().lastIndexOf(':'));
-        Assert.assertTrue(!result.equals(null));
+       homePage.showHeroBannerImgSrc();
     }
     @Test(priority = 1)
     public void validateHeroBannerDisplayed(){
-        boolean result = homePage.isHeroBannerDisplayed();
-        Assert.assertTrue(result,"Banner is not Displayed");
+        homePage.isHeroBannerDisplayed();
     }
     @Test(priority = 4)
     public void addPassengersTest(){
@@ -54,21 +53,34 @@ public void createTestObj(){
     }
     @Test(priority = 5)
         public void testDiscoverSearchButton(){
-        int size = homePage.DiscoverySearchTest("Hawaii Hotels");
-      Assert.assertEquals(size,5);
-    }
-    @Test(priority = 5)
-    public void testDiscoverSearchButton2(){
-        int size = homePage.DiscoverySearchTest("Amsterdam Hotels");
-        Assert.assertEquals(size,6);
+        homePage.discoverySearchTest();
     }
     @Test()
     public void testRoundTripFlightWithOneAdult() throws InterruptedException {
         homePage.searchRoundTripFlightOneAdult("new york","Toronto","10/10/18","10/20/18");
-        //Assert.assertEquals(homePage.getDestinationLabelText(),"Select your departure to "+"Toronto");
     }
     @Test
     public void pageUrlTest(){
     homePage.properUrl();
+    }
+
+    @Test
+    public void hotelLinksIndexValueTest(){
+        homePage.hotelLinksIndexValue();
+    }
+
+    @Test
+    public void flightsToNewYorkLinkStatusTest(){
+       homePage.flightsToNewYorkLinkStatus();
+    }
+
+    @Test
+    public void vacationPakagesCountTest(){
+        homePage.vacationPakagesCount();
+    }
+
+    @Test
+    public void exploreMoreToggleVisibilityTest(){
+        homePage.exploreMoreToggleVisibility();
     }
 }

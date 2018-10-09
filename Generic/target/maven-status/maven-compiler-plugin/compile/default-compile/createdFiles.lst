@@ -4,6 +4,7 @@ reporting/ExtentTestManager.class
 reporting/TestLogger.class
 databases/ConnectToSqlDB.class
 TestData/ExcelReader2.class
+TestData/GoogleSheetReader.class
 utilities/CaptureScreenShots.class
 reporting/ExtentManager.class
 databases/ConnectToMongoDB.class

@@ -13,6 +13,7 @@ public class CruisesPageTest extends CommonAPI {
     public void setup(){
         cruisesPage = new CruisesPage();
     }
+
     @Test
     public void pageTitleValidateTest(){
         cruisesPage.pageTitleValidate();
@@ -20,6 +21,54 @@ public class CruisesPageTest extends CommonAPI {
     @Test
     public void pageUrlTest(){
         cruisesPage.properUrl();
+    }
+    @Test
+    public void headerLabelTextValidationTest(){
+        cruisesPage.headerLabelTextValidation();
+    }
+    @Test
+    public void cruisesLinkisUnderLinedTest(){
+        cruisesPage.cruisesLinkisUnderLined();
+    }
+    @Test
+    public void yourFirstStopforDiscountCruisesLabelVisibilityTest(){
+        cruisesPage.yourFirstStopforDiscountCruisesLabelVisibility();
+    }
+    @Test
+    public void cruiseDealsandDiscountsontheBestCruiseLinesLabelVisibilityTest(){
+        cruisesPage.cruiseDealsandDiscountsontheBestCruiseLinesLabelVisibility();
+    }
+    @Test
+    public void enjoytThetBestCruiseTravelDestinationsLabelVisibilityTest(){
+        cruisesPage.enjoytThetBestCruiseTravelDestinationsLabelVisibility();
+    }
+    @Test
+    public void lastMinuteCruiseDealsVacationIdeasLabelVisibilityTest(){
+        cruisesPage.lastMinuteCruiseDealsVacationIdeasLabelVisibility();
+    }
+    @Test
+    public void takeAVacationonTheseAllInclusiveCruisesLabelVisibilityTest(){
+        cruisesPage.takeAVacationonTheseAllInclusiveCruisesLabelVisibility();
+    }
+    @Test
+    public void discountCruisesCountTest(){
+        cruisesPage.discountCruisesCount();
+    }
+    @Test
+    public void bestCruisesCountTest(){
+        cruisesPage.bestCruisesCount();
+    }
+    @Test
+    public void destinationCruisesCountTest(){
+        cruisesPage.destinationCruisesCount();
+    }
+    @Test
+    public void lastMinuteCruisesCountTest(){
+        cruisesPage.lastMinuteCruisesCount();
+    }
+    @Test
+    public void allInclusiveCruisesCountTest(){
+        cruisesPage.allInclusiveCruisesCount();
     }
 
 }

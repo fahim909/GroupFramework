@@ -31,6 +31,18 @@ public class ThingsToDoPage extends CommonAPI {
     WebElement endDateInput;
     @FindBy(xpath = "//label[@class='col search-btn-col']//button[@type='submit']")
     WebElement searchButton;
+    @FindBy(xpath = "//h1[@class='wizard-tabs launch-page-title']")
+    WebElement searchThingsToDoLabel;
+    @FindBy(xpath = "//h3[contains(text(),'US Activities')]")
+    WebElement usActivitiesLabel;
+    @FindBy(xpath = "//h3[contains(text(),'Things To Do in Europe')]")
+    WebElement thingsToDoInEuropeLabel;
+    @FindBy(xpath = "//h3[contains(text(),'What to Do in the Caribbean')]")
+    WebElement whatToDoInTheCaribbeanLabel;
+    @FindBy(xpath = "//h3[contains(text(),'Tours and Activities in Latin America')]")
+    WebElement toursAndActivitiesInLatinAmericaLabel;
+    @FindBy(xpath = "//a[@id='primary-header-activity']")
+    WebElement thingsTodoLink;
 
     // actions
     public void fillThingsToDoForm(String destination, String start, String end){
@@ -50,6 +62,11 @@ public class ThingsToDoPage extends CommonAPI {
     public void pageTitleValidation(){
         String title = driver.getTitle();
         Assert.assertEquals(title,"Things To Do Near Me: Find Fun Activities Nearby | Expedia");
+    }
+
+    public void thingsToDoLlinkIsUnderlined(){
+        String borderProp = thingsTodoLink.getCssValue("border-bottom");
+        Assert.assertTrue(borderProp.contains("solid"));
     }
 
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
@@ -78,5 +95,54 @@ public class ThingsToDoPage extends CommonAPI {
         WebDriverWait wait = new WebDriverWait(driver,3);
         WebElement incorrect = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h5[@class='alert-title no-outline']")));
         Assert.assertTrue(incorrect.isDisplayed());
+    }
+
+    public void headerLabelTextValidation(){
+        String text = searchThingsToDoLabel.getText();
+        Assert.assertTrue(text.contains("Search Things To Do"));
+    }
+
+    public void dropDownValidation(){
+        driver.findElement(By.xpath("//div[contains(@class,'col forms')]//span[@class='icon icon-toggle180']")).click();
+        WebDriverWait wait = new WebDriverWait(driver,3);
+        WebElement incorrect = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#mer-email")));
+        boolean visible = driver.findElement(By.cssSelector("#mer-email")).isDisplayed();
+        Assert.assertTrue(visible);
+    }
+
+    public void usActivitiesLabelVisibility(){
+        Assert.assertTrue(usActivitiesLabel.isDisplayed());
+    }
+
+    public void thingsToDoInEuropeLabelVisibility(){
+        Assert.assertTrue(thingsToDoInEuropeLabel.isDisplayed());
+    }
+
+    public void whatToDoInTheCaribbeanLabelVisibiity(){
+        Assert.assertTrue(whatToDoInTheCaribbeanLabel.isDisplayed());
+    }
+
+    public void toursAndActivitiesInLatinAmericaLabelVisibility(){
+        Assert.assertTrue(toursAndActivitiesInLatinAmericaLabel.isDisplayed());
+    }
+
+    public void usActivitiesCount(){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@id='launch-seo']//div[1]//div[1]//ul[1]/li"));
+        Assert.assertEquals(list.size(),8);
+    }
+
+    public void europeActivitiesCount(){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@id='launch-seo']//div[2]//div[1]//ul[1]/li"));
+        Assert.assertEquals(list.size(),8);
+    }
+
+    public void caribbeanActivitiesCount(){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@id='launch-seo']//div[3]//div[1]//ul[1]/li"));
+        Assert.assertEquals(list.size(),8);
+    }
+
+    public void latinActivitiesCount(){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@id='launch-seo']//div[4]//div[1]//ul[1]/li"));
+        Assert.assertEquals(list.size(),8);
     }
 }

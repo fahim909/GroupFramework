@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -120,6 +121,12 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//div[@class='cols-nested']//button[@type='submit']")
     WebElement vacationSearchButton;
 
+    @FindBy(xpath = "//a[contains(text(),'Flights to New York')]")
+    WebElement flightsToNewYorkLink;
+
+    @FindBy(xpath = "//section[@class='segmented-list toggle open']//a[@class='toggle-trigger open']")
+    WebElement exploreMoreToggle;
+
     public List<String> getNavBarTexts(){
         List<WebElement> navitems;
         navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
@@ -140,25 +147,26 @@ public class HomePage extends CommonAPI {
         return resultLabel.getText();
     }
 
-    public String getHomePageTitle(){
-        return driver.getTitle();
+    public void getHomePageTitle(){
+        String title = driver.getTitle();
+        Assert.assertEquals(title,"Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations");
     }
 
-    public boolean ValidateExpediaLogo(){
-       return ExpediaLogo.isDisplayed();
+    public void validateExpediaLogo(){
+       boolean display = ExpediaLogo.isDisplayed();
+        Assert.assertEquals(display,true);
     }
 
-    public String ShowHeroBannerImgSrc(){
-         String style = HeroBanner.getAttribute("style");
-       // String url = style.substring(style.indexOf('/'),style.indexOf())
-        System.out.println(style);
-        return style;
+    public void showHeroBannerImgSrc(){
+        String style = HeroBanner.getAttribute("style");
+        String result = style.substring(0,style.lastIndexOf(':'));
+        Assert.assertTrue(!result.equals(null));
+
     }
 
-    public boolean isHeroBannerDisplayed(){
+    public void isHeroBannerDisplayed(){
         boolean result = HeroBanner.isDisplayed();
-        // String url = style.substring(style.indexOf('/'),style.indexOf())
-        return result;
+        Assert.assertTrue(result,"Banner is not Displayed");
     }
     public void searchRoundTripFlightOneAdult(String from, String destination,String departing, String returning) throws InterruptedException {
         FlightOnlyTab.click();
@@ -178,11 +186,12 @@ public class HomePage extends CommonAPI {
 
     }
 
-    public int DiscoverySearchTest(String destination){
+    public void discoverySearchTest(){
         DiscoverButton.click();
-        DiscoverSearchBox.sendKeys(destination, Keys.ENTER);
-        List<WebElement> resultcollection = driver.findElements(By.xpath("//a[contains(text(),"+destination+")]"));
-        return resultcollection.size();
+        DiscoverSearchBox.sendKeys("Hawaii Hotels", Keys.ENTER);
+        List<WebElement> resultcollection = driver.findElements(By.xpath("//a[contains(text(),"+"Hawaii Hotels"+")]"));
+        int size = resultcollection.size();
+        Assert.assertEquals(size,5);
     }
 
     public void clickOnVacationRentalTab(){
@@ -207,7 +216,34 @@ public class HomePage extends CommonAPI {
 
     public void properUrl(){
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.expedia.com");
+        Assert.assertEquals(url,"https://www.expedia.com/");
+    }
+
+    public void hotelLinksIndexValue(){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@id='featured-hotel']//ul[@class='cf']//a"));
+        String firstIndexText = list.get(0).getText();
+        Assert.assertEquals(firstIndexText,"Sydney Hotels");
+    }
+
+    public void flightsToNewYorkLinkStatus(){
+        flightsToNewYorkLink.click();
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        String flightsToNewYorkLabel = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(@class,'lite-title')]"))).getText();
+        Assert.assertTrue(flightsToNewYorkLabel.contains("Flights to New York"));
+    }
+
+    public void vacationPakagesCount(){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@id='popular-vacation-destinations']//ul[@class='cf']//a"));
+        int size = list.size();
+        Assert.assertTrue(size == 12);
+    }
+
+    public void exploreMoreToggleVisibility(){
+        WebDriverWait wait = new WebDriverWait(driver,2);
+        WebElement exploreMoreDiv = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='exploreMore']")));
+        exploreMoreToggle.click();
+        boolean visible = exploreMoreDiv.isDisplayed();
+        Assert.assertFalse(visible);
     }
 }
 

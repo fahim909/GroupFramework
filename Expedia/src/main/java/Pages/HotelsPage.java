@@ -42,6 +42,9 @@ public class HotelsPage extends CommonAPI {
     @FindBy(xpath = "//a[@href = \"#exploreMore\"]")
     WebElement  exploreMore;
 
+    @FindBy(css = "#primary-header-hotel")
+    WebElement hotelsLink;
+
     public void validateLabelHotelDiscount(){
         String label = USHotelDiscountsLabel.getText();
         boolean contains = label.contains("U.S. Hotel Discounts");
@@ -120,6 +123,11 @@ public class HotelsPage extends CommonAPI {
     public void properUrl(){
         String url = driver.getCurrentUrl();
         Assert.assertEquals(url,"https://www.expedia.com/Hotels");
+    }
+
+    public void hotelsLinkIsUnderlined(){
+        String borderProp = hotelsLink.getCssValue("border-bottom");
+        Assert.assertTrue(borderProp.contains("solid"));
     }
 
 }

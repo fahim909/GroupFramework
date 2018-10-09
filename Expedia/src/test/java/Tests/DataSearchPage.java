@@ -21,7 +21,6 @@ public class DataSearchPage extends CommonAPI {
         Object data[][] = ExcelReader2.getTestData(0);
         return data;
     }
-
     @Test(dataProvider = "getExcelTestData")
     public void testRoundTripFlightWithOneAdult(String from, String to, String departing, String returning) throws InterruptedException {
         homePage.searchRoundTripFlightOneAdult(from,to,departing,returning);

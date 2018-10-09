@@ -48,6 +48,13 @@ public class LoginPage extends CommonAPI {
         return driver.getCurrentUrl();
     }
 
-
-
+    public void loginValidation(){
+        typeEmail("lowang22@gmail.com");
+        typePassword("selenium4life");
+        submitButton.click();
+    }
 }
+
+
+
+

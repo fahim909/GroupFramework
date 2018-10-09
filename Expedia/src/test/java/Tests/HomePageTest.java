@@ -29,26 +29,22 @@ public void createTestObj(){
         String title = homePage.getHomePageTitle();
         Assert.assertEquals(title,"Expedia Travel: Search Hotels, Cheap Flights, Car Rentals & Vacations");
     }
-
     @Test(priority = 2)
       public void isLogoVisibleTest(){
         //boolean result=homePage.ValidateExpediaLogo();
         //Assert.assertEquals(result,true);
           System.out.println(homePage.ValidateExpediaLogo());
     }
-
     @Test
-    public void ValidateHeroBannerImgUrl(){
+    public void validateHeroBannerImgUrl(){
         String result = homePage.ShowHeroBannerImgSrc().substring(0,homePage.ShowHeroBannerImgSrc().lastIndexOf(':'));
         Assert.assertTrue(!result.equals(null));
     }
-
     @Test(priority = 1)
-    public void ValidateHeroBannerDisplayed(){
+    public void validateHeroBannerDisplayed(){
         boolean result = homePage.isHeroBannerDisplayed();
         Assert.assertTrue(result,"Banner is not Displayed");
     }
-
     @Test(priority = 4)
     public void addPassengersTest(){
         homePage.TravelorsTabclick();
@@ -56,23 +52,23 @@ public void createTestObj(){
             homePage.AdultsPLusOneclick();
         }
     }
-
     @Test(priority = 5)
-        public void TestDiscoverSearchButton(){
+        public void testDiscoverSearchButton(){
         int size = homePage.DiscoverySearchTest("Hawaii Hotels");
       Assert.assertEquals(size,5);
     }
-
     @Test(priority = 5)
-    public void TestDiscoverSearchButton2(){
+    public void testDiscoverSearchButton2(){
         int size = homePage.DiscoverySearchTest("Amsterdam Hotels");
         Assert.assertEquals(size,6);
     }
-
     @Test()
     public void testRoundTripFlightWithOneAdult() throws InterruptedException {
         homePage.searchRoundTripFlightOneAdult("new york","Toronto","10/10/18","10/20/18");
         //Assert.assertEquals(homePage.getDestinationLabelText(),"Select your departure to "+"Toronto");
     }
-
+    @Test
+    public void pageUrlTest(){
+    homePage.properUrl();
+    }
 }

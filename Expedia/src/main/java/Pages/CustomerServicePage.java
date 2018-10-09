@@ -70,5 +70,10 @@ public class CustomerServicePage extends CommonAPI {
         Assert.assertEquals(list.size(),5);
     }
 
+    public void properUrl(){
+        String url = driver.getCurrentUrl();
+        Assert.assertEquals(url,"https://www.expedia.com/service/");
+    }
+
 
 }

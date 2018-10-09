@@ -62,10 +62,6 @@ public class HomePage extends CommonAPI {
     @FindBy(css = "#tab-flight-tab-hp")
     WebElement TravelersTab;
 
-    public void TravelorsTabclick(){
-        System.out.println("travelors tab expected: "+TravelersTab.getAttribute("id")+" actual: "+TravelersTab.getAttribute("id"));
-        TravelersTab.click();}
-
     @FindBy(xpath = "//button[@xpath = '35']")
     WebElement AdultsPlusOne ;
     public void AdultsPLusOneclick(){AdultsPlusOne.click();}
@@ -124,8 +120,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//div[@class='cols-nested']//button[@type='submit']")
     WebElement vacationSearchButton;
 
-
-
     public List<String> getNavBarTexts(){
         List<WebElement> navitems;
         navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
@@ -137,6 +131,11 @@ public class HomePage extends CommonAPI {
     }
 
     //Actions
+
+    public void TravelorsTabclick(){
+        System.out.println("travelors tab expected: "+TravelersTab.getAttribute("id")+" actual: "+TravelersTab.getAttribute("id"));
+        TravelersTab.click();}
+
     public String getDestinationLabelText(){
         return resultLabel.getText();
     }
@@ -204,6 +203,11 @@ public class HomePage extends CommonAPI {
 
     public void clickOnVacationSearchButton(){
         clickOnWebElement(vacationSearchButton);
+    }
+
+    public void properUrl(){
+        String url = driver.getCurrentUrl();
+        Assert.assertEquals(url,"https://www.expedia.com");
     }
 }
 

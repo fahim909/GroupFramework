@@ -15,24 +15,25 @@ public class CustomerServicePageTest extends CommonAPI {
         this.customerServicePage = new CustomerServicePage();
     }
 
-  @Test
-  public void validateLabelText(){
+    @Test
+    public void validateLabelText(){
         String ans = customerServicePage.CSLabelText();
       Assert.assertEquals(ans,"We're here to help.");
   }
-
-  @Test
+    @Test
     public void validatePhoneFieldTest() throws InterruptedException {
         customerServicePage.verifyPhoneTextLabel();
   }
-
-  @Test
-  public void AddPropertyTest() throws InterruptedException {
+    @Test
+    public void addPropertyTest() throws InterruptedException {
         customerServicePage.verifyPropertyPageBannerText();
     }
-
     @Test
-    public void SearchResultsCount() throws InterruptedException {
+    public void searchResultsCount() throws InterruptedException {
         customerServicePage.getSearchResultCount();
+    }
+    @Test
+    public void pageUrlTest(){
+        customerServicePage.properUrl();
     }
 }

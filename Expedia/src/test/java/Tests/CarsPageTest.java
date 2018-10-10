@@ -1,17 +1,19 @@
 package Tests;
 
 import Pages.CarsPage;
+import Pages.HomePage;
 import base.CommonAPI;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CarsPageTest extends CommonAPI {
-
+    HomePage homePage;
     CarsPage carsPage;
 
    @BeforeMethod
     public void setup(){
-       carsPage = new CarsPage();
+       homePage = new HomePage();
+       carsPage = homePage.clickCarsLink();
    }
    @Test
     public void testCarTabIsUnderLined(){

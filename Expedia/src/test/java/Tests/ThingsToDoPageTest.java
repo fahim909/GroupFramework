@@ -1,5 +1,6 @@
 package Tests;
 
+import Pages.HomePage;
 import Pages.ThingsToDoPage;
 import base.CommonAPI;
 import org.testng.annotations.BeforeMethod;
@@ -9,12 +10,13 @@ import java.io.IOException;
 import java.security.PublicKey;
 
 public class ThingsToDoPageTest extends CommonAPI {
-
+    HomePage homePage;
     ThingsToDoPage thingsToDoPage;
 
     @BeforeMethod
     public void createObject(){
-      thingsToDoPage = new ThingsToDoPage();
+        homePage = new HomePage();
+        thingsToDoPage = homePage.clickThingsToDoPage();
     }
 
     @Test

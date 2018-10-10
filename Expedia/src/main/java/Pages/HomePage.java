@@ -127,6 +127,25 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//section[@class='segmented-list toggle open']//a[@class='toggle-trigger open']")
     WebElement exploreMoreToggle;
 
+    @FindBy(css = "#primary-header-car")
+    WebElement carTab;
+
+    @FindBy(css = "#primary-header-cruise")
+    WebElement cruisesLink;
+
+    @FindBy(css = "#primary-header-deals")
+    WebElement dealsLink;
+
+    @FindBy(css = "#primary-header-flight")
+    WebElement flightsLink;
+
+    @FindBy(css = "#primary-header-hotel")
+    WebElement hotelsLink;
+
+    @FindBy(xpath = "//a[@id='primary-header-activity']")
+    WebElement thingsTodoLink;
+
+
     public List<String> getNavBarTexts(){
         List<WebElement> navitems;
         navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
@@ -244,6 +263,36 @@ public class HomePage extends CommonAPI {
         exploreMoreToggle.click();
         boolean visible = exploreMoreDiv.isDisplayed();
         Assert.assertFalse(visible);
+    }
+
+    public CarsPage clickCarsLink(){
+        carTab.click();
+        return new CarsPage();
+    }
+
+    public CruisesPage clickCruisesLink(){
+        cruisesLink.click();
+        return new CruisesPage();
+    }
+
+    public FlightsPage clickFlightsLink(){
+        flightsLink.click();
+        return new FlightsPage();
+    }
+
+    public DealsPage clickDealsPage(){
+        dealsLink.click();
+        return new DealsPage();
+    }
+
+    public HotelsPage clickHotelsPage(){
+        hotelsLink.click();
+        return new HotelsPage();
+    }
+
+    public ThingsToDoPage clickThingsToDoPage(){
+        thingsTodoLink.click();
+        return  new ThingsToDoPage();
     }
 }
 

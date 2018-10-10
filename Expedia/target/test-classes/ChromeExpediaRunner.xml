@@ -19,7 +19,7 @@
     <test name = "HotelsPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/Hotels"/>
+        <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.HotelsPageTest"/>
         </classes>
@@ -48,14 +48,6 @@
         <class name="Tests.CustomerServicePageTest"/>
         </classes>
     </test>
-    <test name = "DataDrivenHomePageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.DataSearchPage"/>
-        </classes>
-    </test>
     <test name = "RecentSearchesPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
@@ -75,7 +67,7 @@
     <test name = "CarPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/Cars"/>
+        <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.CarsPageTest"/>
         </classes>
@@ -83,7 +75,7 @@
     <test name = "ThingstoDoPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/Activities"/>
+        <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.ThingsToDoPageTest"/>
         </classes>
@@ -91,7 +83,7 @@
     <test name = "CruisesPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/Cruises"/>
+        <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.CruisesPageTest"/>
         </classes>
@@ -99,7 +91,7 @@
     <test name = "DealsPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/Deals"/>
+        <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.DealsPageTest"/>
         </classes>
@@ -107,7 +99,7 @@
     <test name = "FlightsPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/Flights"/>
+        <parameter name="url" value="https://www.expedia.com"/>
         <classes>
             <class name="Tests.FlightsPageTest"/>
         </classes>

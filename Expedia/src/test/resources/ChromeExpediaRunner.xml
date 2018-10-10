@@ -56,14 +56,6 @@
             <class name="Tests.DataBaseHomePageTest"/>
         </classes>
     </test>
-    <test name = "KeyWordDrivenHomePageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.testKeywordDriven.KeywordDrivenHomePageTest"/>
-        </classes>
-    </test>
     <test name = "CarPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>

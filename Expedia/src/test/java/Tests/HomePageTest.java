@@ -1,28 +1,25 @@
 package Tests;
 
 import Pages.HomePage;
-import TestData.ExcelReader2;
+import TestData.ExcelReader;
+import TestData.XSSFDataReader;
 import base.CommonAPI;
 import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
-
-import java.util.List;
 
 public class HomePageTest extends CommonAPI {
 
     HomePage homePage;
     ExtentReports report;
+    XSSFDataReader xssfDataReader;
+    String path = "/Users/junedalam/Documents/July2018WebAutomation/Expedia/src/test/java/Tests/TestFiles/KeyWordDrivenSheet.xlsx";
 
 @BeforeMethod
-public void createTestObj(){
-
+public void createTestObj() throws Exception {
+    this.xssfDataReader = new XSSFDataReader();
+    this.xssfDataReader.setExcelFile(path,"Sheet1");
     this.homePage = new HomePage();
     report = ExtentManager.getInstance();
 
@@ -85,11 +82,41 @@ public void createTestObj(){
 
     @DataProvider
     public Object[][] getExcelTestData(){
-        Object data[][] = ExcelReader2.getTestData(0);
+        Object data[][] = ExcelReader.getTestData(0);
         return data;
     }
     @Test(dataProvider = "getExcelTestData")
     public void testRoundTripFlightWithExcelData(String from, String to, String departing, String returning) throws InterruptedException {
         homePage.searchRoundTripFlightOneAdult(from,to,departing,returning);
+    }
+
+    @Test
+    public void verifyPageTitleWithKeyWord() throws Exception {
+        for (int i = 1; i<6;i++){
+            String sActionKeyword = xssfDataReader.getCellData(i, 1);
+            switch (sActionKeyword) {
+                case "goToRentals":
+                    homePage.clickOnVacationRentalTab();
+                    break;
+                case "typeOnGoingToField":
+                    homePage.typeOnVacationGoingToField("Toronto");
+                    break;
+                case "typeOnCheckingInField":
+                    homePage.typeOnVacationCheckingInField("10/10/2018");
+                    break;
+                case "typeOnCheckingOutField":
+                    homePage.typeOnVacationCheckingOutField("10/24/2018");
+                    break;
+                case "clickOnSearchButton":
+                    homePage.clickOnVacationSearchButton();
+                    break;
+                default:
+                    break;
+            }
+        }
+        Thread.sleep(5000);
+        String title = driver.getTitle();
+        boolean validTitle = driver.getTitle().contains("Hotel Search Results");
+        Assert.assertTrue(validTitle);
     }
 }

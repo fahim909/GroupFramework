@@ -2,10 +2,11 @@ Tests/CustomerServicePageTest.class
 Tests/DataBaseHomePageTest.class
 Tests/HotelsPageTest.class
 Tests/LoginPageTest.class
+Tests/FlightsPageTest.class
+Tests/DealsPageTest.class
 Tests/HomePageTest.class
 Tests/CruisesPageTest.class
 Tests/SignUpPageTest.class
 Tests/testKeywordDriven/KeywordDrivenHomePageTest.class
 Tests/CarsPageTest.class
-Tests/DataSearchPage.class
 Tests/ThingsToDoPageTest.class

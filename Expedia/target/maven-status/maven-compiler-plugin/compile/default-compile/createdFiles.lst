@@ -1,6 +1,8 @@
 Pages/SignUpPage.class
+Pages/FlightsPage.class
 Pages/CruisesPage.class
 Pages/ThingsToDoPage.class
+Pages/DealsPage.class
 Pages/CarsPage.class
 Pages/DataBaseHomePage.class
 Pages/CustomerServicePage.class

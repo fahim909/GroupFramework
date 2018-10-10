@@ -1,17 +1,19 @@
 package Tests;
 
 import Pages.CruisesPage;
+import Pages.HomePage;
 import base.CommonAPI;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CruisesPageTest extends CommonAPI {
-
+    HomePage homePage;
     CruisesPage cruisesPage;
 
     @BeforeMethod
     public void setup(){
-        cruisesPage = new CruisesPage();
+        homePage = new HomePage();
+        cruisesPage = homePage.clickCruisesLink();
     }
 
     @Test

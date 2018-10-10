@@ -1,6 +1,7 @@
 package Tests;
 
 import Pages.DealsPage;
+import Pages.HomePage;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -13,12 +14,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DealsPageTest extends CommonAPI {
-
+    HomePage homePage;
     DealsPage dealsPage;
 
     @BeforeMethod
-    public void setup(){
-        this.dealsPage = new DealsPage();
+    public void setup() {
+        homePage = new HomePage();
+        this.dealsPage = homePage.clickDealsPage();
     }
 
     @Test

@@ -20,7 +20,6 @@ public class HomePageTest extends CommonAPI {
     HomePage homePage;
     ExtentReports report;
 
-
 @BeforeMethod
 public void createTestObj(){
 
@@ -82,5 +81,15 @@ public void createTestObj(){
     @Test
     public void exploreMoreToggleVisibilityTest(){
         homePage.exploreMoreToggleVisibility();
+    }
+
+    @DataProvider
+    public Object[][] getExcelTestData(){
+        Object data[][] = ExcelReader2.getTestData(0);
+        return data;
+    }
+    @Test(dataProvider = "getExcelTestData")
+    public void testRoundTripFlightWithExcelData(String from, String to, String departing, String returning) throws InterruptedException {
+        homePage.searchRoundTripFlightOneAdult(from,to,departing,returning);
     }
 }

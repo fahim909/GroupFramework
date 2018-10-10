@@ -1,17 +1,19 @@
 package Tests;
 
+import Pages.HomePage;
 import Pages.HotelsPage;
 import base.CommonAPI;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HotelsPageTest extends CommonAPI {
-
+    HomePage homePage;
     HotelsPage hotelsPage;
 
     @BeforeMethod
     public void setup(){
-        hotelsPage = new HotelsPage();
+        homePage = new HomePage();
+        hotelsPage = homePage.clickHotelsPage();
     }
 
     @Test()

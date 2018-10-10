@@ -1,6 +1,7 @@
 package Tests;
 
 import Pages.FlightsPage;
+import Pages.HomePage;
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -15,10 +16,11 @@ import java.util.List;
 public class FlightsPageTest extends CommonAPI {
 
     FlightsPage flightsPage;
-
+    HomePage homePage;
     @BeforeMethod
     public void setup(){
-        flightsPage = new FlightsPage();
+        homePage = new HomePage();
+        flightsPage = homePage.clickFlightsLink();
     }
 
     @Test

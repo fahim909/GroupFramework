@@ -9,93 +9,85 @@
     <parameter name="useCloud" value="false"/>
     <parameter name="browser" value="chrome"/>
 
-    <test name = "HomePageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.HomePageTest"/>
-        </classes>
-    </test>
-    <test name = "HotelsPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.HotelsPageTest"/>
-        </classes>
-    </test>
-    <test name = "SignUpPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/user/createaccount?fromheader=true"/>
-        <classes>
-            <class name="Tests.SignUpPageTest"/>
-        </classes>
-    </test>
-    <test name = "LoginUpPageTest(Mac/chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/user/signin"/>
-        <classes>
-            <class name="Tests.LoginPageTest"/>
-        </classes>
-    </test>
-    <test name = "CustomerServicePageTest(Mac/chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/service/"/>
-        <classes>
-        <class name="Tests.CustomerServicePageTest"/>
-        </classes>
-    </test>
-    <test name = "RecentSearchesPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.DataBaseHomePageTest"/>
-        </classes>
-    </test>
-    <test name = "KeyWordDrivenHomePageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.testKeywordDriven.KeywordDrivenHomePageTest"/>
-        </classes>
-    </test>
-    <test name = "CarPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.CarsPageTest"/>
-        </classes>
-    </test>
-    <test name = "ThingstoDoPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.ThingsToDoPageTest"/>
-        </classes>
-    </test>
-    <test name = "CruisesPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.CruisesPageTest"/>
-        </classes>
-    </test>
-    <test name = "DealsPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.DealsPageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "HomePageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.HomePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "HotelsPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.HotelsPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "SignUpPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/user/createaccount?fromheader=true"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.SignUpPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "LoginUpPageTest(Mac/chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/user/signin"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.LoginPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "CustomerServicePageTest(Mac/chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com/service/"/>-->
+        <!--<classes>-->
+        <!--<class name="Tests.CustomerServicePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "RecentSearchesPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.DataBaseHomePageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "CarPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.CarsPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "ThingstoDoPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.ThingsToDoPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "CruisesPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.CruisesPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name = "DealsPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.DealsPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
     <test name = "FlightsPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>

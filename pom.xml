@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Cnn</module>
         <module>Expedia</module>
         <module>RESTapi</module>
     </modules>
@@ -121,24 +120,13 @@
                 <artifactId>google-api-services-sheets</artifactId>
                 <version>v4-rev498-1.23.0</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/com.google.api-client/google-api-client -->
-            <!--<dependency>
-                <groupId>com.google.api-client</groupId>
-                <artifactId>google-api-client</artifactId>
-                <version>1.22.0</version>
-            </dependency>
-            &lt;!&ndash; https://mvnrepository.com/artifact/com.google.oauth-client/google-oauth-client &ndash;&gt;
+            <!-- https://mvnrepository.com/artifact/log4j/log4j -->
             <dependency>
-                <groupId>com.google.oauth-client</groupId>
-                <artifactId>google-oauth-client</artifactId>
-                <version>1.23.0</version>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
             </dependency>
-            &lt;!&ndash; https://mvnrepository.com/artifact/com.google.oauth-client/google-oauth-client-jetty &ndash;&gt;
-            <dependency>
-                <groupId>com.google.oauth-client</groupId>
-                <artifactId>google-oauth-client-jetty</artifactId>
-                <version>1.23.0</version>
-            </dependency>-->
+
         </dependencies>
     </dependencyManagement>
 

@@ -1,6 +1,7 @@
 package Pages;
 
 import base.CommonAPI;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +14,7 @@ import org.testng.Assert;
 import java.util.List;
 
 public class FlightsPage extends CommonAPI {
-
+    public static Logger log = Logger.getLogger(FlightsPage.class);
     public FlightsPage(){
         PageFactory.initElements(driver,this);
     }
@@ -43,11 +44,13 @@ public class FlightsPage extends CommonAPI {
     //actions
     public void properUrl(){
         String url = driver.getCurrentUrl();
+        log.info("testing the url");
         Assert.assertEquals(url,"https://www.expedia.com/Flights");
     }
 
     public void pageTitleValidation(){
         String title = driver.getTitle();
+        log.info("testing title of page");
         Assert.assertEquals(title,"Cheap Flights: Airline Tickets, Airfare Deals & One Way Flights | Expedia");
     }
 
@@ -63,7 +66,7 @@ public class FlightsPage extends CommonAPI {
 
     public void dropDownValidation(){
         advancedOptions.click();
-        WebDriverWait wait = new WebDriverWait(driver,3);
+        WebDriverWait wait = new WebDriverWait(driver,10);
         WebElement nonStopRadioBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#advanced-flight-nonstop-flp")));
         nonStopRadioBox.click();
         boolean selected = nonStopRadioBox.isSelected();

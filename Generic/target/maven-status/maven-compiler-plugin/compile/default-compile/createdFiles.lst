@@ -3,7 +3,6 @@ TestData/XSSFDataReader.class
 reporting/ExtentTestManager.class
 reporting/TestLogger.class
 databases/ConnectToSqlDB.class
-TestData/ExcelReader2.class
 TestData/GoogleSheetReader.class
 utilities/CaptureScreenShots.class
 reporting/ExtentManager.class
@@ -14,3 +13,4 @@ TestData/HSSFDataReader.class
 databases/User.class
 reporting/ExtentReporterNG.class
 utilities/WebEventListener.class
+TestData/ExcelReader.class

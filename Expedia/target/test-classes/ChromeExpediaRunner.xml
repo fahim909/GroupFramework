@@ -9,13 +9,13 @@
     <parameter name="useCloud" value="false"/>
     <parameter name="browser" value="chrome"/>
 
-    <!--<test name = "HomePageTest(Mac/Chrome)">-->
-        <!--<parameter name="platform" value="Mac"/>-->
-        <!--<parameter name="url" value="https://www.expedia.com"/>-->
-        <!--<classes>-->
-            <!--<class name="Tests.HomePageTest"/>-->
-        <!--</classes>-->
-    <!--</test>-->
+    <test name = "HomePageTest(Mac/Chrome)">
+        <parameter name="platform" value="Mac"/>
+        <parameter name="url" value="https://www.expedia.com"/>
+        <classes>
+            <class name="Tests.HomePageTest"/>
+        </classes>
+    </test>
     <!--<test name = "HotelsPageTest(Mac/Chrome)">-->
         <!--<parameter name="platform" value="Mac"/>-->
         <!--<parameter name="browser" value="chrome"/>-->
@@ -88,14 +88,14 @@
             <!--<class name="Tests.DealsPageTest"/>-->
         <!--</classes>-->
     <!--</test>-->
-    <test name = "FlightsPageTest(Mac/Chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com"/>
-        <classes>
-            <class name="Tests.FlightsPageTest"/>
-        </classes>
-    </test>
+    <!--<test name = "FlightsPageTest(Mac/Chrome)">-->
+        <!--<parameter name="platform" value="Mac"/>-->
+        <!--<parameter name="browser" value="chrome"/>-->
+        <!--<parameter name="url" value="https://www.expedia.com"/>-->
+        <!--<classes>-->
+            <!--<class name="Tests.FlightsPageTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>
 
 

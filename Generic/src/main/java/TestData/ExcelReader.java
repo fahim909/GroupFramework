@@ -43,29 +43,5 @@ public class ExcelReader {
             }
         return parsedData;
     }
-
-public static String[] getTestData2(int sheetIndex){
-    //FileInputStream file = null;
-    BufferedInputStream bis = null;
-    try {
-        bis = new BufferedInputStream(new FileInputStream(Path));
-        //file = new FileInputStream(Path);
-    } catch (FileNotFoundException e) {
-        e.printStackTrace();
-    }
-    try {
-        book = WorkbookFactory.create(bis);
-    } catch (IOException e) {
-        e.printStackTrace();
-    } catch (InvalidFormatException e) {
-        e.printStackTrace();
-    }
-    sheet = book.getSheetAt(sheetIndex);
-     parsedData = new String[sheet.getLastRowNum()];
-    for (int i = 1;i<parsedData.length;i++){
-            parsedData[i] = sheet.getRow(i).getCell(2).toString();
-    }
-    return parsedData;
-  }
 }
 

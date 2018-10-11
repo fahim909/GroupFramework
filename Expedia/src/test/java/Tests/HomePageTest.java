@@ -102,7 +102,7 @@ public void createTestObj() throws Exception {
                     homePage.typeOnVacationGoingToField("Toronto");
                     break;
                 case "typeOnCheckingInField":
-                    homePage.typeOnVacationCheckingInField("10/10/2018");
+                    homePage.typeOnVacationCheckingInField("10/20/2018");
                     break;
                 case "typeOnCheckingOutField":
                     homePage.typeOnVacationCheckingOutField("10/24/2018");

@@ -35,8 +35,8 @@ public class CommonAPI {
      public static WebDriver driver;
      public static EventFiringWebDriver e_driver;
      public static WebEventListener eventListener;
-     public static String UserName = "junedalam1";
-     public static String AccessKey = "63mtFyCzVt7soLPZfeHM";
+     public static String UserName = "lowang1";
+     public static String AccessKey = "sCddh1m4bqBpEF5az9wF";
      public CommonAPI(){
      }
 

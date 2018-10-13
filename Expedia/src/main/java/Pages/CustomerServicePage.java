@@ -6,6 +6,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.util.List;
@@ -33,17 +35,18 @@ public class CustomerServicePage extends CommonAPI {
 
 
 
-    public String CSLabelText(){
+    public void CSLabelText(){
         String text = CustomerServiceLabel.getText();
-        return text;
+        Assert.assertTrue(text.contains("We're here to help"));
     }
 
     public void verifyPhoneTextLabel() throws InterruptedException {
         phoneNumberInputBox.clear();
         phoneNumberInputBox.sendKeys("917-292-4196");
         SendButton.click();
-        Thread.sleep(2000);
-        WebElement labelText = driver.findElement(By.xpath("//div[@class='alert-message']"));
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebElement labelText;
+        labelText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='alert-message']")));
         Assert.assertEquals(labelText.getText(),"Thank you! A text with the download link has been sent to your mobile device");
     }
 

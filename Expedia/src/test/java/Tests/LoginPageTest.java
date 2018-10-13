@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 public class LoginPageTest extends CommonAPI {
 
     LoginPage loginPage;
-    HomePage homePage;
 
     @BeforeMethod
     public void createTestObj(){
@@ -19,21 +18,17 @@ public class LoginPageTest extends CommonAPI {
     }
 
     @Test
-    public void alidateUrl(){
-        Assert.assertEquals(loginPage.returnUrl(),"https://www.expedia.com/user/signin");
+    public void validateUrlTest(){
+        loginPage.validateUrl();
     }
+
     @Test(priority = 1)
-    public void isLabelVisible(){
-        boolean result = loginPage.isLabelDisplayed();
-        Assert.assertEquals(result,true);
+    public void isLabelVisibleTest(){
+      loginPage.isLabelVisible();
     }
     @Test(priority = 2)
-    public void validateLoginFormLabel(){
-        if(loginPage.isLabelDisplayed()){
-            String Label = loginPage.returnlabelText();
-            Assert.assertEquals(Label,"Sign in with your email");
-        }
-
+    public void validateLoginFormLabelTest(){
+        loginPage.validateLoginFormLabel();
     }
     @Test
     public void testLoginForm(){

@@ -2,32 +2,19 @@
 
 package base;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
-import reporting.ExtentManager;
-import reporting.ExtentReporterNG;
 import utilities.WebEventListener;
 
-import java.io.File;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
@@ -106,5 +93,10 @@ public static void setUpBrowserStack() throws MalformedURLException {
     }
     public  static void clickOnWebElement(WebElement we){
         we.click();
+    }
+    public static String convertToString(String st){
+        String splitString ;
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        return splitString;
     }
 }

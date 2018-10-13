@@ -34,7 +34,7 @@ public class DealsPage extends CommonAPI {
     @FindBy(xpath = "//h3[contains(text(),'Flight Deals')]")
     WebElement flightDealsLabel;
 
-    @FindBy
+    @FindBy(xpath = "//h3[contains(text(),'Hotel Deals')]")
     WebElement hotelDealsLabel;
 
     @FindBy(xpath = "//h3[contains(text(),'Cruise Deals')]")
@@ -45,7 +45,7 @@ public class DealsPage extends CommonAPI {
     //actions
     public void properUrl() {
         String url = driver.getCurrentUrl();
-        Assert.assertEquals(url, "view-source:https://www.expedia.com/Deals");
+        Assert.assertEquals(url, "https://www.expedia.com/Deals");
     }
     public void pageTitleValidation(){
         String title = driver.getTitle();
@@ -80,7 +80,7 @@ public class DealsPage extends CommonAPI {
         skiLink.click();
         Thread.sleep(3000);
         WebElement skiPageBanner = driver.findElement(By.xpath("//h1[contains(text(),'Ski Mountain Vacations')]"));
-        Assert.assertEquals(skiPageBanner,"Ski Mountain Vacations");
+        Assert.assertEquals(skiPageBanner.getText(),"Ski Mountain Vacations");
     }
 
     public void vacationPakageDealsLabelFontWeight(){
@@ -90,7 +90,7 @@ public class DealsPage extends CommonAPI {
 
     public void hotelDealsLabelcolor(){
         String color = hotelDealsLabel.getCssValue("color");
-        Assert.assertEquals(color,"#1f1f1f");
+        Assert.assertEquals(color,"rgba(31, 31, 31, 1)");
     }
 
     public void flightDealsDisplay(){

@@ -4,6 +4,7 @@ import Pages.DataBaseHomePage;
 import base.CommonAPI;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class DataBaseHomePageTest extends CommonAPI {
     DataBaseHomePage dataBaseHomePage;

@@ -86,7 +86,7 @@ public class HotelsPage extends CommonAPI {
 
     public void addPropertyButtonColor(){
         String color = addPropertyButton.getCssValue("color");
-        Assert.assertEquals(color,"#0065b8");
+        Assert.assertEquals(color,"rgba(0, 101, 184, 1)");
     }
 
     public void isQRCodeDisplayed(){
@@ -113,7 +113,7 @@ public class HotelsPage extends CommonAPI {
 
     public void exploreMoreAttribute(){
         String href = exploreMore.getAttribute("href");
-        Assert.assertEquals(href,"#exploreMore");
+        Assert.assertEquals(href,"https://www.expedia.com/Hotels#exploreMore");
     }
 
     public void titleValidation(){

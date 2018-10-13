@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LoginPage extends CommonAPI {
 
@@ -16,10 +17,6 @@ public class LoginPage extends CommonAPI {
 
     public String returnlabelText(){
         return formLabel.getText();
-    }
-
-    public boolean isLabelDisplayed(){
-        return formLabel.isDisplayed();
     }
 
     @FindBy(css = "#signin-loginid")
@@ -43,15 +40,24 @@ public class LoginPage extends CommonAPI {
         submitButton.click();
         return new HomePage();
     }
-
-    public String returnUrl(){
-        return driver.getCurrentUrl();
+    public void validateUrl(){
+        Assert.assertEquals(driver.getCurrentUrl(),"https://www.expedia.com/user/signin");
     }
 
     public void loginValidation(){
         typeEmail("lowang22@gmail.com");
         typePassword("selenium4life");
         submitButton.click();
+    }
+
+    public void isLabelVisible(){
+        boolean result = formLabel.isDisplayed();
+        Assert.assertEquals(result,true);
+    }
+
+    public void validateLoginFormLabel(){
+        String labelText = formLabel.getText();
+        Assert.assertTrue(labelText.contains("Sign in with your email"));
     }
 }
 

@@ -32,7 +32,7 @@ public class CarsPageTest extends CommonAPI {
        carsPage.carTabIsSelected();
     }
     @Test
-    public void testCarHotelTabIsSelected(){
+    public void testCarHotelTabIsSelected() throws InterruptedException {
         carsPage.carHotelTabIsSelected();
     }
     @Test

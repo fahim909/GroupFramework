@@ -40,14 +40,6 @@
             <class name="Tests.LoginPageTest"/>
         </classes>
     </test>
-    <test name = "CustomerServicePageTest(Mac/chrome)">
-        <parameter name="platform" value="Mac"/>
-        <parameter name="browser" value="chrome"/>
-        <parameter name="url" value="https://www.expedia.com/service/"/>
-        <classes>
-        <class name="Tests.CustomerServicePageTest"/>
-        </classes>
-    </test>
     <test name = "RecentSearchesPageTest(Mac/Chrome)">
         <parameter name="platform" value="Mac"/>
         <parameter name="browser" value="chrome"/>

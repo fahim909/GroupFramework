@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.util.List;
@@ -61,23 +63,31 @@ public class CarsPage extends CommonAPI {
     }
 
     public void carTabIsSelected(){
-        carTab.click();
-        boolean isSelected = carOnlyTab.isSelected();
+        carOnlyTab.click();
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebElement originLabel = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[contains(text(),'Picking up')])[1]")));
+        boolean isSelected = originLabel.isDisplayed();
         Assert.assertTrue(isSelected);
     }
-    public void carHotelTabIsSelected(){
+    public void carHotelTabIsSelected() throws InterruptedException {
         carHotelTab.click();
-        boolean isSelected = carHotelTab.isSelected();
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebElement originLabel = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[contains(text(),'Going to')])[1]")));
+        boolean isSelected = originLabel.isDisplayed();
         Assert.assertTrue(isSelected);
     }
     public void carHotelFlightTabIsSelected(){
         carHotelFlightTab.click();
-        boolean isSelected = carHotelFlightTab.isSelected();
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebElement originLabel = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[contains(text(),'Origin')])[1]")));
+        boolean isSelected = originLabel.isDisplayed();
         Assert.assertTrue(isSelected);
     }
     public void carFlightTabIsSelected(){
         carFlightTab.click();
-        boolean isSelected = carFlightTab.isSelected();
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        WebElement originLabel = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[contains(text(),'Origin')])[1]")));
+        boolean isSelected = originLabel.isDisplayed();
         Assert.assertTrue(isSelected);
     }
 
@@ -99,7 +109,7 @@ public class CarsPage extends CommonAPI {
 
     public void internationalRentalCarsLineHeight(){
         String height = internationalRentalCarsDealLabel.getCssValue("line-height");
-        Assert.assertEquals(height,"1.75");
+        Assert.assertEquals(height,"26.25px");
     }
 
     public void domesticRentalsListCount() {

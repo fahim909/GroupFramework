@@ -55,12 +55,12 @@ public class HotelsPageTest extends CommonAPI {
     }
 
     @Test
-    public void TestIsQRCodeDisplayed(){
+    public void testIsQRCodeDisplayed(){
         hotelsPage.isQRCodeDisplayed();
     }
 
     @Test
-    public void TestLegalDivText(){
+    public void testLegalDivText(){
         hotelsPage.legalDivText();
     }
 
@@ -86,5 +86,10 @@ public class HotelsPageTest extends CommonAPI {
     @Test
     public void hotelsLinkIsUnderlinedTest(){
         hotelsPage.hotelsLinkIsUnderlined();
+    }
+
+    @Test
+    public void countGlobalLinksTest(){
+        hotelsPage.countGlobalLinks();
     }
 }

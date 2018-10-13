@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class SignUpPage extends CommonAPI {
 
@@ -71,5 +72,10 @@ public class SignUpPage extends CommonAPI {
 
     public void clickHumanCheckBox() {
         HumanCheckbox.click();
+    }
+
+    public void verifyHumanOrRobotPageTitle(){
+        String title =  driver.getTitle();
+        Assert.assertEquals(title,"Bot or Not?");
     }
 }

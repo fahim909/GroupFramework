@@ -17,10 +17,7 @@ public void createTestObj(){
 }
 
 @Test
-    public void verifyHumanOrRobotPageTitle(){
-    String title =  driver.getTitle();
-    Assert.assertEquals(title,"Bot or Not?");
+    public void verifyHumanOrRobotPageTitleTest(){
+    signUpPage.verifyHumanOrRobotPageTitle();
 }
-
-
 }

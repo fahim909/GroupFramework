@@ -50,7 +50,8 @@ public class CommonAPI {
         eventListener = new WebEventListener();
         e_driver.register(eventListener);
         driver = e_driver;
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1440, 900));
         driver.manage().deleteAllCookies();
         //driver.manage().timeouts().pageLoadTimeout(8, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(8,TimeUnit.SECONDS);

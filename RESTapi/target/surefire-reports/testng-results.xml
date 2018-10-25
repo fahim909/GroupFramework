@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="5680" started-at="2018-10-11T19:58:22Z" finished-at="2018-10-11T19:58:27Z">
+  <suite name="Surefire suite" duration-ms="4688" started-at="2018-10-25T23:18:29Z" finished-at="2018-10-25T23:18:33Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="5680" started-at="2018-10-11T19:58:22Z" finished-at="2018-10-11T19:58:27Z">
+    <test name="Surefire test" duration-ms="4688" started-at="2018-10-25T23:18:29Z" finished-at="2018-10-25T23:18:33Z">
       <class name="OpenWeatherMap.GetRequestTest">
-        <test-method status="PASS" signature="testResponseCity()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseCity" duration-ms="3473" started-at="2018-10-11T19:58:22Z" finished-at="2018-10-11T19:58:25Z">
+        <test-method status="PASS" signature="testResponseCity()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseCity" duration-ms="2921" started-at="2018-10-25T23:18:29Z" finished-at="2018-10-25T23:18:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseCity -->
-        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseCode" duration-ms="761" started-at="2018-10-11T19:58:25Z" finished-at="2018-10-11T19:58:26Z">
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseCode" duration-ms="602" started-at="2018-10-25T23:18:31Z" finished-at="2018-10-25T23:18:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseCode -->
-        <test-method status="PASS" signature="testResponseID()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseID" duration-ms="698" started-at="2018-10-11T19:58:26Z" finished-at="2018-10-11T19:58:27Z">
+        <test-method status="PASS" signature="testResponseID()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseID" duration-ms="566" started-at="2018-10-25T23:18:32Z" finished-at="2018-10-25T23:18:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseID -->
-        <test-method status="PASS" signature="testResponseTime()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseTime" duration-ms="711" started-at="2018-10-11T19:58:27Z" finished-at="2018-10-11T19:58:27Z">
+        <test-method status="PASS" signature="testResponseTime()[pri:0, instance:OpenWeatherMap.GetRequestTest@9629756]" name="testResponseTime" duration-ms="570" started-at="2018-10-25T23:18:33Z" finished-at="2018-10-25T23:18:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseTime -->

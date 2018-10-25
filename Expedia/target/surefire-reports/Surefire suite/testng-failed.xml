@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="Tests.DealsPageTest">
+        <methods>
+          <include name="chooseClassVerificationTest"/>
+          <include name="hotelsDealsCountTest"/>
+          <include name="setup"/>
+          <include name="carRentalDealsCountTest"/>
+          <include name="carRentalDealsLabelVisibilityTest"/>
+          <include name="flightDealsDisplayTest"/>
+          <include name="headerLabelTextValidationTest"/>
+          <include name="flightDealsCountTest"/>
+          <include name="hawaiiLinkValidationTest"/>
+          <include name="cruiseLabelBoxsizeTest"/>
+          <include name="vacationPakageDealsLabelFontWeightTest"/>
+          <include name="tearDown"/>
+          <include name="dealsLinkIsUnderlinedTest"/>
+          <include name="hotelDealsLabelcolorTest"/>
+          <include name="skiLinkValidationTest"/>
+          <include name="cruiseDealsCountTest"/>
+          <include name="properUrlTest"/>
+          <include name="pageTitleValidationTest"/>
+          <include name="vacationDealsCountTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.DealsPageTest -->
+      <class name="Tests.CustomerServicePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateLabelText"/>
+          <include name="searchResultsCount"/>
+          <include name="addPropertyTest"/>
+          <include name="setUp"/>
+          <include name="validatePhoneFieldTest"/>
+          <include name="createTestObj"/>
+          <include name="pageUrlTest"/>
+        </methods>
+      </class> <!-- Tests.CustomerServicePageTest -->
+      <class name="Tests.DataBaseHomePageTest">
+        <methods>
+          <include name="navbarLinksTest"/>
+          <include name="tearDown"/>
+          <include name="createTestObj"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.DataBaseHomePageTest -->
+      <class name="Tests.LoginPageTest">
+        <methods>
+          <include name="validateUrlTest"/>
+          <include name="tearDown"/>
+          <include name="testLoginForm"/>
+          <include name="createTestObj"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.LoginPageTest -->
+      <class name="Tests.CarsPageTest">
+        <methods>
+          <include name="testInternationalRentalsListCount"/>
+          <include name="testCarHotelFlightTabIsSelected"/>
+          <include name="testCarHotelTabIsSelected"/>
+          <include name="testInternationalRentalCarsHeight"/>
+          <include name="testDomesticRentalsListCount"/>
+          <include name="testCarFlightTabIsSelected"/>
+          <include name="testDomesticRentalsLabelFont"/>
+          <include name="testcarTabIsSelected"/>
+          <include name="testCheckboxSelection"/>
+          <include name="tearDown"/>
+          <include name="testTitleValidation"/>
+          <include name="testCarTabIsUnderLined"/>
+          <include name="setup"/>
+          <include name="testCarPageBannerValidText"/>
+          <include name="testCarPageBannerIsDisplayed"/>
+          <include name="setUp"/>
+          <include name="testPageUrl"/>
+        </methods>
+      </class> <!-- Tests.CarsPageTest -->
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="flightsToNewYorkLinkStatusTest"/>
+          <include name="testRoundTripFlightWithExcelData"/>
+          <include name="createTestObj"/>
+          <include name="tearDown"/>
+          <include name="hotelLinksIndexValueTest"/>
+          <include name="testRoundTripFlightWithOneAdult"/>
+          <include name="verifyPageTitleWithKeyWord"/>
+          <include name="vacationPakagesCountTest"/>
+          <include name="validateHeroBannerImgUrl"/>
+          <include name="exploreMoreToggleVisibilityTest"/>
+          <include name="setUp"/>
+          <include name="pageUrlTest"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+      <class name="Tests.SignUpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHumanOrRobotPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="createTestObj"/>
+        </methods>
+      </class> <!-- Tests.SignUpPageTest -->
+      <class name="Tests.HotelsPageTest">
+        <methods>
+          <include name="testValidateUsHotelLinkCount"/>
+          <include name="testValidateLabelInternationalHotel"/>
+          <include name="testIsQRCodeDisplayed"/>
+          <include name="testLegalDivText"/>
+          <include name="testValidateInternationalHotelLinkCount"/>
+          <include name="countGlobalLinksTest"/>
+          <include name="testValidateEuropeHotelLinkCount"/>
+          <include name="testValidateLabelHotelDiscount"/>
+          <include name="testValidateLabelEuropeHotel"/>
+          <include name="pageUrlTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testAddPropertyButtonColor"/>
+          <include name="hotelsLinkIsUnderlinedTest"/>
+          <include name="testTitleValidation"/>
+          <include name="testTodaysTopDealBoxSize"/>
+          <include name="testSendButtonBorderRadius"/>
+          <include name="setUp"/>
+          <include name="testExploreMoreAttribute"/>
+        </methods>
+      </class> <!-- Tests.HotelsPageTest -->
+      <class name="Tests.FlightsPageTest">
+        <methods>
+          <include name="addOnAdvantageImgUrlValidationTest"/>
+          <include name="discountAirfareLinksCountTest"/>
+          <include name="popularFlightRoutesLinksCountTest"/>
+          <include name="properUrlTest"/>
+          <include name="airlinesDropDownTest"/>
+          <include name="popularFlightsNDiscountAirfareLabelVisibilityTest"/>
+          <include name="setup"/>
+          <include name="flightslinkIsUnderlinedTest"/>
+          <include name="headerLabelTextValidationTest"/>
+          <include name="tearDown"/>
+          <include name="pageTitleValidationTest"/>
+          <include name="dropDownValidationTest"/>
+          <include name="popularFlightRoutesLabelVisibilityTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.FlightsPageTest -->
+      <class name="Tests.ThingsToDoPageTest">
+        <methods>
+          <include name="invalidSearchTest"/>
+          <include name="latinActivitiesCountTest"/>
+          <include name="createObject"/>
+          <include name="usActivitiesCountTest"/>
+          <include name="toursAndActivitiesInLatinAmericaLabelTest"/>
+          <include name="pageUrl"/>
+          <include name="testThingsToDoForm"/>
+          <include name="europeActivitiesCountTest"/>
+          <include name="usActivitiesLabelVisibilityTest"/>
+          <include name="tearDown"/>
+          <include name="headerLabelTextValidationTest"/>
+          <include name="pageTitleTest"/>
+          <include name="thingsToDoInEuropeLabelVisibilityTest"/>
+          <include name="caribbeanActivitiesCountTest"/>
+          <include name="thingsToDoLlinkIsUnderlinedTest"/>
+          <include name="setUp"/>
+          <include name="whatToDoInTheCaribbeanLabelVisibiityTest"/>
+        </methods>
+      </class> <!-- Tests.ThingsToDoPageTest -->
+      <class name="Tests.CruisesPageTest">
+        <methods>
+          <include name="destinationCruisesCountTest"/>
+          <include name="headerLabelTextValidationTest"/>
+          <include name="yourFirstStopforDiscountCruisesLabelVisibilityTest"/>
+          <include name="lastMinuteCruiseDealsVacationIdeasLabelVisibilityTest"/>
+          <include name="lastMinuteCruisesCountTest"/>
+          <include name="bestCruisesCountTest"/>
+          <include name="cruisesLinkisUnderLinedTest"/>
+          <include name="cruiseDealsandDiscountsontheBestCruiseLinesLabelVisibilityTest"/>
+          <include name="allInclusiveCruisesCountTest"/>
+          <include name="enjoytThetBestCruiseTravelDestinationsLabelVisibilityTest"/>
+          <include name="tearDown"/>
+          <include name="pageTitleValidateTest"/>
+          <include name="takeAVacationonTheseAllInclusiveCruisesLabelVisibilityTest"/>
+          <include name="discountCruisesCountTest"/>
+          <include name="setUp"/>
+          <include name="pageUrlTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Tests.CruisesPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

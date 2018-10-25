@@ -13,9 +13,6 @@ import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
-
-
-
 public class HomePage extends CommonAPI {
     public HomePage(){
         PageFactory.initElements(driver,this);
@@ -145,7 +142,6 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//a[@id='primary-header-activity']")
     WebElement thingsTodoLink;
 
-
     public List<String> getNavBarTexts(){
         List<WebElement> navitems;
         navitems = driver.findElements(By.xpath("//ul[@class='tabs cf col']//button/span[2]"));
@@ -157,7 +153,6 @@ public class HomePage extends CommonAPI {
     }
 
     //Actions
-
     public void TravelorsTabclick(){
         System.out.println("travelors tab expected: "+TravelersTab.getAttribute("id")+" actual: "+TravelersTab.getAttribute("id"));
         TravelersTab.click();}

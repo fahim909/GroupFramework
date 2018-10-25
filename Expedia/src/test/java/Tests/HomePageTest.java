@@ -22,7 +22,6 @@ public void createTestObj() throws Exception {
     this.xssfDataReader.setExcelFile(path,"Sheet1");
     this.homePage = new HomePage();
     report = ExtentManager.getInstance();
-
 }
     @Test(priority = 1)
         public void homePageTitleTest(){
@@ -89,7 +88,6 @@ public void createTestObj() throws Exception {
     public void testRoundTripFlightWithExcelData(String from, String to, String departing, String returning) throws InterruptedException {
         homePage.searchRoundTripFlightOneAdult(from,to,departing,returning);
     }
-
     @Test
     public void verifyPageTitleWithKeyWord() throws Exception {
         for (int i = 1; i<6;i++){
